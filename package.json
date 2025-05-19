@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/disenoUDP/laboratorioInteraccionDigital/issues"
   },
-  "homepage": "https://github.com/disenoUDP/laboratorioInteraccionDigital#readme"
+  "homepage": "https://github.com/disenoUDP/laboratorioInteraccionDigital#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.0"
+  }
 }
