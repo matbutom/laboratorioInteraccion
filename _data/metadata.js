@@ -1,11 +1,11 @@
 export default {
-	title: "Eleventy Base Blog v9",
-	url: "https://example.com/",
+	title: "LID UDP",
+	url: "https://disenoudp.github.io/laboratoriointeracciondigital",
 	language: "en",
-	description: "I am writing about my experiences as a naval navel-gazer.",
+	description: "Laboratorio de Interacción Digital, Universidad Diego Portales",
 	author: {
-		name: "Your Name Here",
-		email: "youremailaddress@example.com",
-		url: "https://example.com/about-me/"
+		name: "Aarón Montoya",
+		email: "aaron.montoya@mail.udp.cl",
+		url: "https://montoyamoraga.io/"
 	}
 }
