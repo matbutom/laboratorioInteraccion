@@ -2,23 +2,45 @@
   "name": "laboratoriointeracciondigital",
   "version": "0.0.1",
   "description": "",
+  "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+	"scripts": {
+		"build": "npx @11ty/eleventy",
+		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
+		"build-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/",
+		"start": "npx @11ty/eleventy --serve --quiet",
+		"start-ghpages": "npx @11ty/eleventy --pathprefix=/eleventy-base-blog/ --serve --quiet",
+		"debug": "cross-env DEBUG=Eleventy* npx @11ty/eleventy",
+		"debugstart": "cross-env DEBUG=Eleventy* npx @11ty/eleventy --serve --quiet",
+		"benchmark": "cross-env DEBUG=Eleventy:Benchmark* npx @11ty/eleventy"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/disenoUDP/laboratorioInteraccionDigital.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "license": "MIT",
+  	"engines": {
+		"node": ">=18"
+	},
   "bugs": {
     "url": "https://github.com/disenoUDP/laboratorioInteraccionDigital/issues"
   },
   "homepage": "https://github.com/disenoUDP/laboratorioInteraccionDigital#readme",
+  	"devDependencies": {
+		"@11ty/eleventy": "^3.1.0",
+		"@11ty/eleventy-img": "^6.0.4",
+		"@11ty/eleventy-navigation": "^1.0.4",
+		"@11ty/eleventy-plugin-rss": "^2.0.4",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
+		"cross-env": "^7.0.3",
+		"luxon": "^3.6.1",
+		"prismjs": "^1.30.0",
+		"zod": "^3.24.4",
+		"zod-validation-error": "^3.4.1"
+	},
   "dependencies": {
-    "@11ty/eleventy": "^3.1.0"
+    "@zachleat/heading-anchors": "^1.0.3"
   }
 }
