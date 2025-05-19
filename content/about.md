@@ -1,9 +1,12 @@
 ---js
 const eleventyNavigation = {
-	key: "About",
-	order: 3
-};
+ key: "Info",
+ order: 1
+}
 ---
-# About
 
-I am a person that writes stuff.
+# Info
+
+Laboratorio de Interacción Digital
+
+FAAD UDP
