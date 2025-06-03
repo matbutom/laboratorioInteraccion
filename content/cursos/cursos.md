@@ -7,6 +7,10 @@ const eleventyNavigation = {
 
 # Cursos
 
+## 2025-02
+
+Próximamente se anunciarán los cursos para el segundo semestre de 2025.
+
 ## 2025-01
 
 * DIS8644 Taller de diseño de máquinas electrónicas

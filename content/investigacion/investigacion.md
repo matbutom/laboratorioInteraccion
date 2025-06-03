@@ -7,11 +7,15 @@ const eleventyNavigation = {
 
 # Investigación
 
-## Diseño paramétrico de identidad gráfica, impresos y web
+## Diseño paramétrico de 3D
+
+## Infraestructura digital paramétrica del laboratorio
+
+### Acerca de
 
 En el laboratorio estamos usando las siguientes herramientas:
 
 * Eleventy
 * Mechanic
 
-en los siguientes proyectos de investigación:
+##
