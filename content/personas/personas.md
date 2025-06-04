@@ -12,10 +12,14 @@ const eleventyNavigation = {
 * Investigadore principal (2024 a la fecha)
 * Profesore asistente, Diseño UDP (2023 a la fecha)
 
+Ingeniere civil electricista de la Pontificia Universidad Católica de Chile, magíster en arte electrónico de New York University, y magíster en ciencias y artes mediales de Massachusetts Institute of Technology. Actualmente es profesore asistente en la Escuela de Diseño UDP, y estudiante del Doctorado en Artes y Humanidades de la Universidad de Santiago Chile. Su tema de investigación es el diseño, escritura y manufactura de software y hardware para la creación de instrumentos musicales electrónicos y computacionales de fuente abierta.
+
 ## Andrés Martin
 
 * Diseñador, Universidad de Chile (2024)
 * Ayudante académico de pregrado (2023 - ahora)
+
+Diseñador de la Universidad de Chile. Ayudante en pregrado de cursos de programación creativa, diseño de interfaces electrónicas y experiencia de usuario en la Escuela de Diseño UDP. Ayudante en pregrado de cursos de física para diseñadores en la Universidad de Chile.
 
 ## Janis Sepúlveda
 
