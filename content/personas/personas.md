@@ -30,3 +30,10 @@ Estudiante de último año de diseño industrial, con enfoque en diseño centrad
 * Ayudante de investigación (2024 - ahora)
 
 Estudiante de último año de diseño gráfico. Su enfoque está en la intersección entre diseño gráfico y código, desarrollando sitios web, interfaces de usuario y sistemas de identidad visual, para crear experiencias visuales funcionales e innovadoras. Su tesis de pregrado es una exploración de  tipográfia interactiva. Las herramientas que usa incluyen Adobe y GitHub Pages.
+
+## Sofía Etchepare
+
+* Estudiante de Diseño UDP (2021 - ahora)
+* Ayudante de investigación (2024 - ahora)
+
+Estudiante de cuarto año de diseño gráfico en UDP. Lleva dos años de experiencia aprendiendo a programar en softwares y plataformas como p5.js, Figma, Arduino y MIT App Inventor. Actualmente es ayudante académica de pregrado en cursos de programación en diseño UDP.
