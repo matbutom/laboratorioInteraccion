@@ -12,14 +12,50 @@ const eleventyNavigation = {
 * DIS8644 Taller de diseño de máquinas electrónicas
   * profesores: Aarón Montoya, Matías Serrano
   * ayudantes: TBD
-  * horario: martes y viernes, de 08:30am a 12:50pm
+  * horario: martes y viernes, 08:30am a 12:50pm
   * momento: 2026, primer semestre, entre marzo y julio
 
 * DIS9079 Interacciones inalámbricas
   * profesores: Aarón Montoya
   * ayudantes: Mateo Arce
-* horario: martes y viernes, de 08:30am a 12:50pm
-* lunes entre 02:30pm y 06:00pm entre marzo y julio
+  * horario: martes y viernes, 08:30am a 12:50pm
+  * momento: 2026, primer semestre, entre marzo y julio
+
+* DIS09214 Pensamiento Computacional - sección 1
+  * profesores: TBD
+  * ayudantes: TBD
+  * horario: viernes TBD
+  * momento: 2026, primer semestre, entre marzo y julio
+
+  * DIS09214 Pensamiento Computacional - sección 2
+  * profesores: TBD
+  * ayudantes: TBD
+  * horario: viernes TBD
+  * momento: 2026, primer semestre, entre marzo y julio
+
+  * DIS09214 Pensamiento Computacional - sección 3
+  * profesores: TBD
+  * ayudantes: TBD
+  * horario: viernes TBD
+  * momento: 2026, primer semestre, entre marzo y julio
+
+* DIS09214 Pensamiento Computacional - sección 4
+  * profesores: Aarón Montoya
+  * ayudantes: Mateo Arce
+  * horario: viernes, 02:30pm a 06:00pm
+  * momento: 2026, primer semestre, entre marzo y julio
+
+  * DIS09214 Pensamiento Computacional - sección 5
+  * profesores: TBD
+  * ayudantes: TBD
+  * horario: viernes TBD
+  * momento: 2026, primer semestre, entre marzo y julio
+
+  * DIS09214 Pensamiento Computacional - sección 6
+  * profesores: TBD
+  * ayudantes: TBD
+  * horario: viernes TBD
+  * momento: 2026, primer semestre, entre marzo y julio
 
 ## 2025-2
 
