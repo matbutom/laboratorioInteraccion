@@ -11,14 +11,15 @@ const eleventyNavigation = {
 
 * DIS8644 Taller de diseño de máquinas electrónicas
   * profesores: Aarón Montoya, Matías Serrano
-  * ayudantes: Janis Sepúlveda, Mateo Arce
-  * horario: martes y viernes de 08:30am a 12:50pm,
-  * año: 2026
-  * meses: entre marzo y julio
+  * ayudantes: TBD
+  * horario: martes y viernes, de 08:30am a 12:50pm
+  * momento: 2026, primer semestre, entre marzo y julio
 
 * DIS9079 Interacciones inalámbricas
-  * dictado por profesore Aarón Montoya y ayudante Mateo Arce
-  * lunes entre 02:30pm y 06:00pm entre marzo y julio
+  * profesores: Aarón Montoya
+  * ayudantes: Mateo Arce
+* horario: martes y viernes, de 08:30am a 12:50pm
+* lunes entre 02:30pm y 06:00pm entre marzo y julio
 
 ## 2025-2
 
