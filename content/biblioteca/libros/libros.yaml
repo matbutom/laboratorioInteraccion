@@ -1,0 +1,22 @@
+---
+nombreBiblioteca: libros lid
+libros:
+  - id: 1
+    titulo: Synth gems 1
+    subtitulo: "Exploring vintage synthesizers: the rare, the odd, and the awesome"
+    autores: ["Mike Metlay"]
+    palabrasClave: ["sintetizadores", "electrónica"]
+    editorial: TBD
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+  - id: 2
+    titulo: Push turn move
+    subtitulo: "Interface design in electronic music"
+    autores: ["Kim Bjørn"]
+    palabrasClave: ["sintetizadores", "electrónica"]
+    editorial: TBD
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
