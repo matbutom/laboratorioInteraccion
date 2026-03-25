@@ -20,3 +20,233 @@ libros:
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
+
+ - id: 3
+    titulo: Modular synthesis
+    subtitulo: "Patching Machine and People"
+    autores: ["Erza J. Teboul"], ["Andreas Kitzmann"], ["Einar Engström"]
+    palabrasClave: ["sintetizadores", "electrónica"]
+    editorial: TBD
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+    
+ - id: 4
+    titulo: Patch & Tweak
+    subtitulo: "Exploring modular synthesis"
+    autores: ["Kim Bjørn"], ["Chris Meyer"] 
+    palabrasClave: ["sintetizadores", "electrónica"]
+    editorial: TBD
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 5
+    titulo: Aesthetic Programming
+    subtitulo: "A Handbook of Software Studies"
+    autores: ["Winnie Soon"], ["Geoff Cox"] 
+    palabrasClave: ["programación", "software"]
+    editorial: TBD
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 6
+    titulo: Handmade Electronic Music
+    subtitulo: "The Art of Hardware Hacking"
+    autores: ["Nicolas Collins"]
+    palabrasClave: ["música", "electrónica"]
+    editorial: TBD
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 7
+    titulo: Chromatic Algorithms
+    subtitulo: "Synthetic Color, Computer Art, and Aesthetics after Code"
+    autores: ["Carolyn L. Kane"] 
+    palabrasClave: ["arte", "computador"]
+    editorial: TBD
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 8
+    titulo: Processing
+    subtitulo: "A Programming Handbook for Visual Designers and Artists"
+    autores: ["Casey Reas"], ["Ben Fry"] 
+    palabrasClave: ["visual", "programación"]
+    editorial: TBD
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 9
+    titulo: Code
+    subtitulo: "Second Edition"
+    autores: ["Charles Petzold"] 
+    palabrasClave: ["código", "hardware", "software"]
+    editorial: TBD
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 10
+    titulo: The Computers that made the World
+    subtitulo:
+    autores: ["Tim Danton"] 
+    palabrasClave: ["computadores"]
+    editorial: TBD
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 11
+    titulo: Fuentes del Derecho
+    subtitulo: 
+    autores: ["Martin Gubbins"] 
+    palabrasClave: ["poesía", "chilena"]
+    editorial: Tácitas
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 12
+    titulo: Haz Fácil lo imposible
+    subtitulo: "La guía para detectar y determinar los problemas de usabilidad"
+    autores: ["Steve Krug"]  
+    palabrasClave: ["experiencia", "usuario"]
+    editorial: Anaya Multimedia
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 13
+    titulo: Imágenes de imágenes: del cuadro a la pantalla
+    subtitulo: 
+    autores: ["Fernando Pérez Villalón"] 
+    palabrasClave: ["análisis", "estudios mediales"]
+    editorial: Mundana
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 14 
+    titulo: De otras cosas y el amor
+    subtitulo: 
+    autores: ["Pacífico Carrasco Gonzales"]
+    palabrasClave: ["poesía", "chilena", "amor"]
+    editorial: Imprenta Fournier
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 15
+    titulo: Articulations
+    subtitulo: 
+    autores: ["Allison Parrich"]
+    palabrasClave: ["poesía", "programación"]
+    editorial: Counterpath Press
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 16
+    titulo: Caps Lock
+    subtitulo: "How capitalism took hold of graphic desing and how to escape from it"
+    autores: ["Ruben Pater"] 
+    palabrasClave: ["capitalismo", "diseño"]
+    editorial: Valiz
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 17
+    titulo: How speak machine 
+    subtitulo: "Computational Thinking for the rest of us"
+    autores: ["John Maeda"]
+    palabrasClave: ["pensamiento computacional", "algoritmos"]
+    editorial: Portfolio Penguin
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 18
+    titulo: Make: analog synthesizers 
+    subtitulo: "A modern approach to old-school sound synthesis "
+    autores: ["Ray Wilson"]
+    palabrasClave: ["sonido", "sintetizadores"]
+    editorial: Make Community
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 19
+    titulo: Pedagogy of hope 
+    subtitulo: "Reliving pedagogy of the oppressed"
+    autores: ["Paulo Freire"]
+    palabrasClave: ["esperanza", "pedagogía"]
+    editorial: Bloomsbury Academic
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 20
+    titulo: Jeannette
+    subtitulo: "Su desconocida vida y su irrupción en la política chilena"
+    autores: ["Alejandra Carmona López"]
+    palabrasClave: ["Política", "Biografía"]
+    editorial: Planeta
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 21
+    titulo: Física Conceptual 
+    subtitulo: 
+    autores: ["Paul G. Hewitt"]
+    palabrasClave: ["Física", "Métodos"]
+    editorial: Addison Wesley Longman
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 22
+    titulo: The fitting book
+    subtitulo: "Make sewing pattern alterations archive the perfect fit you desire"
+    autores: ["Gina Renee Dunham"]
+    palabrasClave: ["Patronaje", "diseño"]
+    editorial: Gina Renee Dunham
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+    
+- id: 23
+    titulo: Digital art
+    subtitulo: "Third edition"
+    autores: ["Christiane Paul"]
+    palabrasClave: ["digital", "diseño"]
+    editorial: Thames & Hudson
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+    
+- id: 24
+    titulo: Patch & tweak whit Korg
+    subtitulo: 
+    autores: ["Kim Bjørn"]
+    palabrasClave: ["electrónica", "sintetizadores"]
+    editorial: Kitaro
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+    
+- id: 25
+    titulo: Inspire the music 
+    subtitulo: "50 years of roland history"
+    autores: ["Kim Bjørn"]
+    palabrasClave: ["instrumentos", "sintetizadores"]
+    editorial: BJOOKS
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
