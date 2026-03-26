@@ -346,16 +346,53 @@ libros:
     titulo: Output
     subtitulo: An Anthology of Computer-Generated Text, 1953–2023
     autores: [Lillian-Yvonne Bertram, Nick Montfort]
-    palabrasClave: ["computación", "inteligencia artificials", "algoritmos", "arte"]
+    palabrasClave: ["computación", "inteligencia artificial", "algoritmos", "arte"]
+    editorial: 
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+    
+- id: 36
+    titulo: Being digital
+    subtitulo:
+    autores: [Nicholas Negroponte]
+    palabrasClave: ["computación", "tecnología"]
     editorial: 
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
 
-    lillian yvonne nertram and nick montfort
-    
+- id: 37
+    titulo: Stompbox
+    subtitulo: 100 Pedals of the World’s Greatest Guitarists
+    autores: [Eilon Paz, Dan Epstein y James Rotondi]
+    palabrasClave: ["música", "electrónica", "sonido", "pedales", "instrumentos"]
+    editorial: Ten Speed Press
+    agno: 2018
+    isbn: TBD
+    codigoBarra: TBD
 
-- id: 3
+- id: 38
+    titulo: Code as Creative Medium
+    subtitulo: A Handbook for Computational Art and Design
+    autores: [Golan Levin, Tega Brain]
+    palabrasClave: ["programación", "electrónica"]
+    editorial: MIT Press
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 39
+    titulo: Reminded by the Instruments
+    subtitulo:
+    autores: [You Nakai]
+    palabrasClave: ["arte", "instrumentos", "electrónica"]
+    editorial: David Tudor Music
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 40
     titulo:
     subtitulo:
     autores: []
@@ -364,3 +401,4 @@ libros:
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
+
