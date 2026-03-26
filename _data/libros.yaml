@@ -250,3 +250,84 @@ libros:
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
+
+    
+- id: 26
+    titulo: Álbum
+    subtitulo: 
+    autores: [Martín Gubbins]
+    palabrasClave: ["álbum", "poesía"]
+    editorial: Ediciones Tácitas
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 27
+    titulo: Vector Synthesis
+    subtitulo: a media archaeological investigation into sound-modulated light
+    autores: [Derek Holzer]
+    palabrasClave: ["computación", "sintetizadores"]
+    editorial:
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 28
+    titulo: Física conceptual
+    subtitulo: segunda edición
+    autores: [Paul G. Hewitt]
+    palabrasClave: ["física", "mecánica", "electronica"]
+    editorial: Addison Wesley Longman
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 29
+    titulo: Impressme
+    subtitulo: guía de referencia técnica y visual para impresión
+    autores: [Omar Céspedes, José Bodet]
+    palabrasClave: ["impresión", "gráfica", "fabricación"]
+    editorial:
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 30
+    titulo: Turtles, termites, and traffic jams
+    subtitulo: explorations in massively parallel microworlds
+    autores: [Mitchel Resnick]
+    palabrasClave: ["computación", "electronica", "programación"]
+    editorial: MIT Press
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 31
+    titulo: Escalas
+    subtitulo:
+    autores: [Martín Gubbins]
+    palabrasClave: ["poesía"]
+    editorial: Mangos de Hacha
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 32
+    titulo: Pioneer Works Journal
+    subtitulo:
+    autores: [colectivo]
+    palabrasClave: ["arte", "música", "ciencia"]
+    editorial: Pioneer Works Press
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 33
+    titulo:
+    subtitulo:
+    autores: []
+    palabrasClave: [""]
+    editorial: 
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
