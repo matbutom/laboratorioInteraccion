@@ -273,16 +273,6 @@ libros:
     codigoBarra: TBD
 
 - id: 28
-    titulo: Física conceptual
-    subtitulo: segunda edición
-    autores: [Paul G. Hewitt]
-    palabrasClave: ["física", "mecánica", "electronica"]
-    editorial: Addison Wesley Longman
-    agno: TBD
-    isbn: TBD
-    codigoBarra: TBD
-
-- id: 29
     titulo: Impressme
     subtitulo: guía de referencia técnica y visual para impresión
     autores: [Omar Céspedes, José Bodet]
@@ -292,7 +282,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 30
+- id: 29
     titulo: Turtles, termites, and traffic jams
     subtitulo: explorations in massively parallel microworlds
     autores: [Mitchel Resnick]
@@ -302,7 +292,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 31
+- id: 30
     titulo: Escalas
     subtitulo:
     autores: [Martín Gubbins]
@@ -312,7 +302,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 32
+- id: 31
     titulo: Pioneer Works Journal
     subtitulo:
     autores: [colectivo]
@@ -322,7 +312,50 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
+- id: 32
+    titulo: Sleepwalk with Me and Other Painfully True Stories
+    subtitulo:
+    autores: [Mike Birbiglia]
+    palabrasClave: ["autobiografía", "humor"]
+    editorial: 
+    agno: 2010
+    isbn: TBD
+    codigoBarra: TBD
+
 - id: 33
+    titulo: Making Pictures with Generative Adversarial Networks
+    subtitulo:
+    autores: [Casey Reas]
+    palabrasClave: ["ensayo", "computación", "arte", "inteligencia artificial"]
+    editorial: 
+    agno: 2019
+    isbn: TBD
+    codigoBarra: TBD
+
+- id: 34
+    titulo: La música de Ana Tijoux
+    subtitulo: activismo, nuevas solidaridades y voces de la calle
+    autores: [María José Barros Cruz]
+    palabrasClave: ["arte, "música", "activismo", "feminismo", "cultura"]
+    editorial: Fondo de Cultura Económica, Editorial Popular
+    agno: 2019
+    isbn: TBD
+    codigoBarra: TBD
+    
+- id: 35
+    titulo: Output
+    subtitulo: An Anthology of Computer-Generated Text, 1953–2023
+    autores: [Lillian-Yvonne Bertram, Nick Montfort]
+    palabrasClave: ["computación", "inteligencia artificials", "algoritmos", "arte"]
+    editorial: 
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+    lillian yvonne nertram and nick montfort
+    
+
+- id: 3
     titulo:
     subtitulo:
     autores: []
