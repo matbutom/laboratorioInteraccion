@@ -1,0 +1,19 @@
+---
+cursos:
+  - sigla: "DIS8644"
+    nombre: "Taller de diseño de máquinas electrónicas"
+    semestres:
+      - semestre: "2026-1"
+        profes: ["Aarón Montoya", "Matías Serrano"]
+        ayudantes: ["Emiliana Guerra"]
+      - semestre: "2025-1"
+        profes: ["Aarón Montoya", "Matías Serrano"]
+        ayudantes: ["Andrés Martin"]
+  - sigla: "DIS8645"
+    nombre: "Taller de diseño de máquinas computacionales"
+    semestres:
+      - semestre: "2025-2"
+        profes: ["Aarón Montoya", "Matías Serrano"]
+        ayudantes: ["Janis Sepúlveda", "Mateo Arce"]
+
+    
