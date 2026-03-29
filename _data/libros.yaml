@@ -254,7 +254,7 @@ libros:
   - id: 26
     titulo: Álbum
     subtitulo: 
-    autores: [Martín Gubbins]
+    autores: ["Martín Gubbins"]
     palabrasClave: ["álbum", "poesía"]
     editorial: Ediciones Tácitas
     agno: TBD
@@ -264,7 +264,7 @@ libros:
   - id: 27
     titulo: Vector Synthesis
     subtitulo: a media archaeological investigation into sound-modulated light
-    autores: [Derek Holzer]
+    autores: ["Derek Holzer"]
     palabrasClave: ["computación", "sintetizadores"]
     editorial:
     agno: TBD
@@ -274,7 +274,7 @@ libros:
   - id: 28
     titulo: Impressme
     subtitulo: guía de referencia técnica y visual para impresión
-    autores: [Omar Céspedes, José Bodet]
+    autores: ["Omar Céspedes", "José Bodet"]
     palabrasClave: ["impresión", "gráfica", "fabricación"]
     editorial:
     agno: TBD
@@ -284,7 +284,7 @@ libros:
   - id: 29
     titulo: Turtles, termites, and traffic jams
     subtitulo: explorations in massively parallel microworlds
-    autores: [Mitchel Resnick]
+    autores: ["Mitchel Resnick"]
     palabrasClave: ["computación", "electronica", "programación"]
     editorial: MIT Press
     agno: TBD
@@ -294,7 +294,7 @@ libros:
   - id: 30
     titulo: Escalas
     subtitulo:
-    autores: [Martín Gubbins]
+    autores: ["Martín Gubbins"]
     palabrasClave: ["poesía"]
     editorial: Mangos de Hacha
     agno: TBD
@@ -304,7 +304,7 @@ libros:
   - id: 31
     titulo: Pioneer Works Journal
     subtitulo:
-    autores: [colectivo]
+    autores: ["colectivo"]
     palabrasClave: ["arte", "música", "ciencia"]
     editorial: Pioneer Works Press
     agno: TBD
@@ -314,7 +314,7 @@ libros:
   - id: 32
     titulo: Sleepwalk with Me and Other Painfully True Stories
     subtitulo:
-    autores: [Mike Birbiglia]
+    autores: ["Mike Birbiglia"]
     palabrasClave: ["autobiografía", "humor"]
     editorial: 
     agno: 2010
@@ -324,7 +324,7 @@ libros:
   - id: 33
     titulo: Making Pictures with Generative Adversarial Networks
     subtitulo:
-    autores: [Casey Reas]
+    autores: ["Casey Reas"]
     palabrasClave: ["ensayo", "computación", "arte", "inteligencia artificial"]
     editorial: 
     agno: 2019
@@ -334,8 +334,8 @@ libros:
   - id: 34
     titulo: La música de Ana Tijoux
     subtitulo: activismo, nuevas solidaridades y voces de la calle
-    autores: [María José Barros Cruz]
-    palabrasClave: ["arte, "música", "activismo", "feminismo", "cultura"]
+    autores: ["María José Barros Cruz"]
+    palabrasClave: ["arte", "música", "activismo", "feminismo", "cultura"]
     editorial: Fondo de Cultura Económica, Editorial Popular
     agno: 2019
     isbn: TBD
@@ -344,7 +344,7 @@ libros:
   - id: 35
     titulo: Output
     subtitulo: An Anthology of Computer-Generated Text, 1953–2023
-    autores: [Lillian-Yvonne Bertram, Nick Montfort]
+    autores: ["Lillian-Yvonne Bertram", "Nick Montfort"]
     palabrasClave: ["computación", "inteligencia artificial", "algoritmos", "arte"]
     editorial: 
     agno: TBD
@@ -354,7 +354,7 @@ libros:
   - id: 36
     titulo: Being digital
     subtitulo:
-    autores: [Nicholas Negroponte]
+    autores: ["Nicholas Negroponte"]
     palabrasClave: ["computación", "tecnología"]
     editorial: 
     agno: TBD
@@ -364,7 +364,7 @@ libros:
   - id: 37
     titulo: Stompbox
     subtitulo: 100 Pedals of the World’s Greatest Guitarists
-    autores: [Eilon Paz, Dan Epstein y James Rotondi]
+    autores: ["Eilon Paz", "Dan Epstein", "James Rotondi"]
     palabrasClave: ["música", "electrónica", "sonido", "pedales", "instrumentos"]
     editorial: Ten Speed Press
     agno: 2018
@@ -374,7 +374,7 @@ libros:
   - id: 38
     titulo: Code as Creative Medium
     subtitulo: A Handbook for Computational Art and Design
-    autores: [Golan Levin, Tega Brain]
+    autores: ["Golan Levin", "Tega Brain"]
     palabrasClave: ["programación", "electrónica"]
     editorial: MIT Press
     agno: TBD
@@ -384,7 +384,7 @@ libros:
   - id: 39
     titulo: Reminded by the Instruments
     subtitulo:
-    autores: [You Nakai]
+    autores: ["You Nakai"]
     palabrasClave: ["arte", "instrumentos", "electrónica"]
     editorial: David Tudor Music
     agno: TBD
