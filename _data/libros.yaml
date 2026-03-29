@@ -24,7 +24,7 @@ libros:
   - id: 3
     titulo: "Modular synthesis"
     subtitulo: "Patching machine and people"
-    autores: ["Erza J. Teboul"], ["Andreas Kitzmann"], ["Einar Engström"]
+    autores: ["Erza J. Teboul", "Andreas Kitzmann", "Einar Engström"]
     palabrasClave: ["sintetizadores", "electrónica"]
     editorial: TBD
     agno: TBD
@@ -34,7 +34,7 @@ libros:
   - id: 4
     titulo: "Patch & tweak"
     subtitulo: "Exploring modular synthesis"
-    autores: ["Kim Bjørn"], ["Chris Meyer"] 
+    autores: ["Kim Bjørn", "Chris Meyer"] 
     palabrasClave: ["sintetizadores", "electrónica"]
     editorial: TBD
     agno: TBD
@@ -44,7 +44,7 @@ libros:
   - id: 5
     titulo: "Aesthetic programming"
     subtitulo: "A handbook of software studies"
-    autores: ["Winnie Soon"], ["Geoff Cox"] 
+    autores: ["Winnie Soon", "Geoff Cox"] 
     palabrasClave: ["programación", "software"]
     editorial: TBD
     agno: TBD
@@ -74,7 +74,7 @@ libros:
   - id: 8
     titulo: "Processing"
     subtitulo: "A Programming Handbook for Visual Designers and Artists"
-    autores: ["Casey Reas"], ["Ben Fry"] 
+    autores: ["Casey Reas", "Ben Fry"] 
     palabrasClave: ["visual", "programación"]
     editorial: TBD
     agno: TBD
