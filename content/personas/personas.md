@@ -66,9 +66,4 @@ Estudiante de cuarto año de diseño gráfico en UDP. Lleva dos años de experie
 
 ## {{ persona.nombre }}
 
-<!-- {{% if persona.correo != "" %}} -->
-
-- correo: {{ persona.correo }} @mail.udp.cl
-<!-- {% endif %} -->
-
 {% endfor %}
