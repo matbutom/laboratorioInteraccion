@@ -1,0 +1,49 @@
+---
+personas:
+  - nombre: "Aarón Montoya Moraga"
+    github: "montoyamoraga"
+    correo: "aaron.montoya"
+
+  - nombre: "Bernardita Lobo"
+    github: ""
+    correo: ""
+
+  - nombre: "Carolina Pino"
+    github: ""
+    correo: ""
+
+  - nombre: "Jacinta Barrenechea"
+    github: ""
+    correo: ""
+
+  - nombre: "Janis Sepúlveda"
+    github: "janisepulveda"
+    correo: "janis.sepulveda"
+
+  - nombre: "Joaquín González"
+    github: ""
+    correo: "joaquin.gonzalez"
+
+  - nombre: "Mateo Arce"
+    github: ""
+    correo: ""
+
+  - nombre: "Matías Serrano"
+    github: ""
+    correo: ""
+  
+  - nombre: "Sergio Majluf"
+    github: "sergiomajluf"
+    correo: "sergio.majluf"
+
+  - nombre: "Sergio Mora"
+    github: ""
+    correo: ""
+  
+  - nombre: "Simón Gallardo"
+    github: ""
+    correo: "manuel.gallardo"
+
+  - nombre: "Vania Paredes"
+    github: ""
+    correo: ""
