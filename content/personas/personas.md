@@ -1,10 +1,11 @@
-<!-- ---js
+---js
 const eleventyNavigation = {
  key: "Personas",
  order: 2
 }
 ---
 
+<!-- 
 # Personas
 
 ## Investigadores principales
@@ -59,16 +60,9 @@ Estudiante de último año de diseño gráfico. Su enfoque está en la intersecc
 
 Estudiante de cuarto año de diseño gráfico en UDP. Lleva dos años de experiencia aprendiendo a programar en softwares y plataformas como p5.js, Figma, Arduino y MIT App Inventor. Actualmente es ayudante académica de pregrado en cursos de programación en diseño UDP. -->
 
----js
-const eleventyNavigation = {
- key: "Personas",
- order: 2
-}
----
-
 # Personas
 
-{% for persona in personas.personass %}
+{% for persona in personas %}
 
 - {{ persona.nombre }}
 {% endfor %}
