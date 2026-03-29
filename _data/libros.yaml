@@ -250,9 +250,8 @@ libros:
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
-
     
-- id: 26
+  - id: 26
     titulo: Álbum
     subtitulo: 
     autores: [Martín Gubbins]
@@ -262,7 +261,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 27
+  - id: 27
     titulo: Vector Synthesis
     subtitulo: a media archaeological investigation into sound-modulated light
     autores: [Derek Holzer]
@@ -272,7 +271,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 28
+  - id: 28
     titulo: Impressme
     subtitulo: guía de referencia técnica y visual para impresión
     autores: [Omar Céspedes, José Bodet]
@@ -282,7 +281,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 29
+  - id: 29
     titulo: Turtles, termites, and traffic jams
     subtitulo: explorations in massively parallel microworlds
     autores: [Mitchel Resnick]
@@ -292,7 +291,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 30
+  - id: 30
     titulo: Escalas
     subtitulo:
     autores: [Martín Gubbins]
@@ -302,7 +301,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 31
+  - id: 31
     titulo: Pioneer Works Journal
     subtitulo:
     autores: [colectivo]
@@ -312,7 +311,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 32
+  - id: 32
     titulo: Sleepwalk with Me and Other Painfully True Stories
     subtitulo:
     autores: [Mike Birbiglia]
@@ -322,7 +321,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 33
+  - id: 33
     titulo: Making Pictures with Generative Adversarial Networks
     subtitulo:
     autores: [Casey Reas]
@@ -332,7 +331,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 34
+  - id: 34
     titulo: La música de Ana Tijoux
     subtitulo: activismo, nuevas solidaridades y voces de la calle
     autores: [María José Barros Cruz]
@@ -341,8 +340,8 @@ libros:
     agno: 2019
     isbn: TBD
     codigoBarra: TBD
-    
-- id: 35
+      
+  - id: 35
     titulo: Output
     subtitulo: An Anthology of Computer-Generated Text, 1953–2023
     autores: [Lillian-Yvonne Bertram, Nick Montfort]
@@ -351,8 +350,8 @@ libros:
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
-    
-- id: 36
+      
+  - id: 36
     titulo: Being digital
     subtitulo:
     autores: [Nicholas Negroponte]
@@ -362,7 +361,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 37
+  - id: 37
     titulo: Stompbox
     subtitulo: 100 Pedals of the World’s Greatest Guitarists
     autores: [Eilon Paz, Dan Epstein y James Rotondi]
@@ -372,7 +371,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 38
+  - id: 38
     titulo: Code as Creative Medium
     subtitulo: A Handbook for Computational Art and Design
     autores: [Golan Levin, Tega Brain]
@@ -382,7 +381,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 39
+  - id: 39
     titulo: Reminded by the Instruments
     subtitulo:
     autores: [You Nakai]
@@ -392,7 +391,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 40
+  - id: 40
     titulo:
     subtitulo:
     autores: []
