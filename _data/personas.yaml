@@ -6,7 +6,8 @@ personas:
     estudianteUDP: false
 
     ayudanteUDP: false
-    profeUDP: true
+    profeUDP:
+      existencia: true
       inicio: 2023
       fin: false
 
@@ -15,123 +16,177 @@ personas:
     correo: "andres.martin"
     estudianteUDP: false
     ayudanteUDP: true
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
 
   - nombre: "Bernardita Lobo"
     github: ""
     correo: ""
     estudianteUDP: true
     ayudanteUDP: true
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
 
   - nombre: "Carolina Pino"
     github: ""
     correo: ""
     estudianteUDP: false
     ayudanteUDP: false
-    profeUDP: true
+    profeUDP:
+      existencia: true
+      inicio: 2026
+      fin: false
 
   - nombre: "Christian Oyarzún"
     github: ""
     correo: ""
     estudianteUDP: false
     ayudanteUDP: false
-    profeUDP: true
+    profeUDP:
+      existencia: true
+      inicio: 2025
+      fin: false
 
   - nombre: "Félix Rodríguez"
     github: ""
     correo: ""
     estudianteUDP: true
     ayudanteUDP: true
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
 
   - nombre: "Jacinta Barrenechea"
     github: ""
     correo: ""
     estudianteUDP: true
     ayudanteUDP: true
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
 
   - nombre: "Janis Sepúlveda"
     github: "janisepulveda"
     correo: "janis.sepulveda"
     estudianteUDP: true
     ayudanteUDP: true
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
 
   - nombre: "Joaquín González"
     github: ""
     correo: "joaquin.gonzalez"
     estudianteUDP: false
     ayudanteUDP: false
-    profeUDP: true
+    profeUDP:
+      existencia: true
+      inicio: 2024
+      fin: false
 
   - nombre: "Mateo Arce"
     github: ""
     correo: ""
     estudianteUDP: true
     ayudanteUDP: true
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
 
   - nombre: "Matías Serrano"
     github: ""
     correo: ""
     estudianteUDP: false
     ayudanteUDP: false
-    profeUDP: true
+    profeUDP:
+      existencia: true
+      inicio: 2024
+      fin: false
 
   - nombre: "Santiago Gaete"
     github: ""
     correo: ""
     estudianteUDP: true
     ayudanteUDP: true
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
   
   - nombre: "Sergio Majluf"
     github: "sergiomajluf"
     correo: "sergio.majluf"
     estudianteUDP: false
     ayudanteUDP: false
-    profeUDP: true
+    profeUDP:
+      existencia: true
+      inicio: 2023
+      fin: false
 
   - nombre: "Sergio Mora"
     github: ""
     correo: ""
     estudianteUDP: false
     ayudanteUDP: false
-    profeUDP: true
+    profeUDP:
+      existencia: true
+      inicio: 2024
+      fin: false
   
   - nombre: "Simón Gallardo"
     github: ""
     correo: "manuel.gallardo"
     estudianteUDP: true
     ayudanteUDP: true
-    profeUDP: true
+    profeUDP:
+      existencia: true
+      inicio: 1234
+      fin: false
 
   - nombre: "Sofía Etchepare"
     github: ""
     correo: ""
     estudianteUDP: true
     ayudanteUDP: true
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
 
   - nombre: "Sofía Pérez"
     github: ""
     correo: ""
     estudianteUDP: true
     ayudanteUDP: false
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
 
   - nombre: "Vania Paredes"
     github: ""
     correo: "vania.paredes"
     estudianteUDP: true
     ayudanteUDP: true
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
 
   - nombre: "Yamna Carrión"
     github: ""
     correo: "yamna.carrion"
     estudianteUDP: true
     ayudanteUDP: false
-    profeUDP: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
