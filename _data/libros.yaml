@@ -21,7 +21,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
- - id: 3
+  - id: 3
     titulo: "Modular synthesis"
     subtitulo: "Patching machine and people"
     autores: ["Erza J. Teboul"], ["Andreas Kitzmann"], ["Einar Engström"]
@@ -31,7 +31,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
     
- - id: 4
+  - id: 4
     titulo: "Patch & tweak"
     subtitulo: "Exploring modular synthesis"
     autores: ["Kim Bjørn"], ["Chris Meyer"] 
@@ -41,7 +41,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 5
+  - id: 5
     titulo: "Aesthetic programming"
     subtitulo: "A handbook of software studies"
     autores: ["Winnie Soon"], ["Geoff Cox"] 
@@ -51,7 +51,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 6
+  - id: 6
     titulo: "Handmade electronic music"
     subtitulo: "The art of hardware hacking"
     autores: ["Nicolas Collins"]
@@ -61,7 +61,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 7
+  - id: 7
     titulo: "Chromatic algorithms"
     subtitulo: "Synthetic color, computer art, and aesthetics after code"
     autores: ["Carolyn L. Kane"] 
@@ -71,7 +71,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 8
+  - id: 8
     titulo: "Processing"
     subtitulo: "A Programming Handbook for Visual Designers and Artists"
     autores: ["Casey Reas"], ["Ben Fry"] 
@@ -81,7 +81,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 9
+  - id: 9
     titulo: "Code"
     subtitulo: "Second Edition"
     autores: ["Charles Petzold"] 
@@ -91,7 +91,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 10
+  - id: 10
     titulo: "The computers that made the World"
     subtitulo:
     autores: ["Tim Danton"] 
@@ -101,7 +101,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 11
+  - id: 11
     titulo: "Fuentes del derecho"
     subtitulo: 
     autores: ["Martin Gubbins"] 
@@ -111,7 +111,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 12
+  - id: 12
     titulo: "Haz fácil lo imposible"
     subtitulo: "La guía para detectar y determinar los problemas de usabilidad"
     autores: ["Steve Krug"]  
@@ -121,7 +121,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 13
+  - id: 13
     titulo: "Imágenes de imágenes: del cuadro a la pantalla"
     subtitulo: 
     autores: ["Fernando Pérez Villalón"] 
@@ -131,7 +131,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 14 
+  - id: 14 
     titulo: "De otras cosas y el amor"
     subtitulo: 
     autores: ["Pacífico Carrasco Gonzales"]
@@ -141,7 +141,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 15
+  - id: 15
     titulo: "Articulations"
     subtitulo: 
     autores: ["Allison Parrish"]
@@ -151,7 +151,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 16
+  - id: 16
     titulo: "Caps Lock"
     subtitulo: "How capitalism took hold of graphic design and how to escape from it"
     autores: ["Ruben Pater"] 
@@ -161,7 +161,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 17
+  - id: 17
     titulo: "How speak machine"
     subtitulo: "Computational Thinking for the rest of us"
     autores: ["John Maeda"]
@@ -171,7 +171,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 18
+  - id: 18
     titulo: "Make: analog synthesizers"
     subtitulo: "A modern approach to old-school sound synthesis"
     autores: ["Ray Wilson"]
@@ -181,7 +181,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 19
+  - id: 19
     titulo: "Pedagogy of hope"
     subtitulo: "Reliving pedagogy of the oppressed"
     autores: ["Paulo Freire"]
@@ -191,7 +191,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 20
+  - id: 20
     titulo: "Jeannette"
     subtitulo: "Su desconocida vida y su irrupción en la política chilena"
     autores: ["Alejandra Carmona López"]
@@ -201,7 +201,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 21
+  - id: 21
     titulo: "Física Conceptual"
     subtitulo: 
     autores: ["Paul G. Hewitt"]
@@ -211,7 +211,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-- id: 22
+  - id: 22
     titulo: "The fitting book"
     subtitulo: "Make sewing pattern alterations archive the perfect fit you desire"
     autores: ["Gina Renee Dunham"]
@@ -221,7 +221,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
     
-- id: 23
+  - id: 23
     titulo: "Digital art"
     subtitulo: "Third edition"
     autores: ["Christiane Paul"]
@@ -231,7 +231,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
     
-- id: 24
+  - id: 24
     titulo: "Patch & tweak with Korg"
     subtitulo: 
     autores: ["Kim Bjørn"]
@@ -241,7 +241,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
     
-- id: 25
+  - id: 25
     titulo: "Inspire the music"
     subtitulo: "50 years of Roland history"
     autores: ["Kim Bjørn"]
