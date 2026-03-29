@@ -27,14 +27,7 @@ Diseñador de la Pontificia Universidad Católica de Chile, magíster en Telecom
 
 ### Simón Gallardo
 
-* Profesor, Diseño UDP
-
-## Ayudantes académiques y de investigación
-
 ### Andrés Martin
-
-* Diseñador, Universidad de Chile (2024)
-* Ayudante académico de pregrado (2023 - ahora)
 
 Diseñador de la Universidad de Chile. Ayudante en pregrado de cursos de programación creativa, diseño de interfaces electrónicas y experiencia de usuario en la Escuela de Diseño UDP. Ayudante en pregrado de cursos de física para diseñadores en la Universidad de Chile.
 
@@ -48,15 +41,9 @@ Estudiante de último año de diseño industrial, con enfoque en diseño centrad
 
 ### Mateo Arce
 
-* Estudiante de Diseño UDP (2020 - ahora)
-* Ayudante de investigación (2024 - ahora)
-
 Estudiante de último año de diseño gráfico. Su enfoque está en la intersección entre diseño gráfico y código, desarrollando sitios web, interfaces de usuario y sistemas de identidad visual, para crear experiencias visuales funcionales e innovadoras. Su tesis de pregrado es una exploración de  tipográfia interactiva. Las herramientas que usa incluyen Adobe y GitHub Pages.
 
 ### Sofía Etchepare
-
-* Estudiante de Diseño UDP (2021 - ahora)
-* Ayudante de académica de pregrado (2024 - ahora)
 
 Estudiante de cuarto año de diseño gráfico en UDP. Lleva dos años de experiencia aprendiendo a programar en softwares y plataformas como p5.js, Figma, Arduino y MIT App Inventor. Actualmente es ayudante académica de pregrado en cursos de programación en diseño UDP. -->
 
@@ -94,9 +81,18 @@ Estudiante de cuarto año de diseño gráfico en UDP. Lleva dos años de experie
 
 {% endif %}
 
-{% if persona.estudianteUDP %}
+{% if persona.estudianteUDP.existencia %}
 
-- Estudiante
+{% if not persona.estudianteUDP.fin %}
+
+- Estudiante desde {{ persona.estudianteUDP.inicio }} hasta ahora
+
+{% else %}
+
+- Estudiante desde {{ persona.estudianteUDP.inicio }} hasta {{ persona.estudianteUDP.fin }}
+
+{% endif %}
+
 {% endif %}
 
 {% endfor %}
