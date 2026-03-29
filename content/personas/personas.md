@@ -62,7 +62,7 @@ Estudiante de cuarto año de diseño gráfico en UDP. Lleva dos años de experie
 
 # Personas
 
-{% for persona in personas %}
+{% for persona in personas.personas %}
 
 - {{ persona.nombre }}
 {% endfor %}
