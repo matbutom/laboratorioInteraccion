@@ -3,7 +3,10 @@ personas:
   - nombre: "Aarón Montoya Moraga"
     github: "montoyamoraga"
     correo: "aaron.montoya"
-    estudianteUDP: false
+    estudianteUDP:
+      existencia: false
+      inicio: false
+      fin: false
     ayudanteUDP: 
       existencia: false
       inicio: false
@@ -16,7 +19,10 @@ personas:
   - nombre: "Andrés Martin"
     github: "andresmartin"
     correo: "andres.martin"
-    estudianteUDP: false
+    estudianteUDP:
+      existencia: false
+      inicio: false
+      fin: false
     ayudanteUDP: 
       existencia: true
       inicio: 2023
@@ -29,7 +35,10 @@ personas:
   - nombre: "Bernardita Lobo"
     github: ""
     correo: ""
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 2023
+      fin: false
     ayudanteUDP: 
       existencia: true
       inicio: 2026
@@ -42,7 +51,10 @@ personas:
   - nombre: "Carolina Pino"
     github: ""
     correo: ""
-    estudianteUDP: false
+    estudianteUDP:
+      existencia: false
+      inicio: false
+      fin: false
     ayudanteUDP: 
       existencia: false
       inicio: false
@@ -55,7 +67,10 @@ personas:
   - nombre: "Christian Oyarzún"
     github: ""
     correo: ""
-    estudianteUDP: false
+    estudianteUDP:
+      existencia: false
+      inicio: false
+      fin: false
     ayudanteUDP: 
       existencia: false
       inicio: false
@@ -68,7 +83,10 @@ personas:
   - nombre: "Félix Rodríguez"
     github: ""
     correo: ""
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 2023
+      fin: false
     ayudanteUDP: 
       existencia: true
       inicio: 2026
@@ -81,7 +99,10 @@ personas:
   - nombre: "Jacinta Barrenechea"
     github: ""
     correo: ""
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 2021
+      fin: 2025
     ayudanteUDP: 
       existencia: true
       inicio: 2025
@@ -94,7 +115,10 @@ personas:
   - nombre: "Janis Sepúlveda"
     github: "janisepulveda"
     correo: "janis.sepulveda"
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 2021
+      fin: 2025
     ayudanteUDP: 
       existencia: true
       inicio: 2024
@@ -107,7 +131,10 @@ personas:
   - nombre: "Joaquín González"
     github: ""
     correo: "joaquin.gonzalez"
-    estudianteUDP: false
+    estudianteUDP:
+      existencia: false
+      inicio: false
+      fin: false
     ayudanteUDP: 
       existencia: false
       inicio: false
@@ -120,7 +147,10 @@ personas:
   - nombre: "Mateo Arce"
     github: ""
     correo: ""
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 2021
+      fin: 2025
     ayudanteUDP: 
       existencia: true
       inicio: 2025
@@ -133,7 +163,10 @@ personas:
   - nombre: "Matías Serrano"
     github: ""
     correo: ""
-    estudianteUDP: false
+    estudianteUDP:
+      existencia: false
+      inicio: false
+      fin: false
     ayudanteUDP: 
       existencia: false
       inicio: false
@@ -146,7 +179,10 @@ personas:
   - nombre: "Santiago Gaete"
     github: ""
     correo: ""
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 2022
+      fin: false
     ayudanteUDP: 
       existencia: true
       inicio: 2026
@@ -159,7 +195,10 @@ personas:
   - nombre: "Sergio Majluf"
     github: "sergiomajluf"
     correo: "sergio.majluf"
-    estudianteUDP: false
+    estudianteUDP:
+      existencia: false
+      inicio: false
+      fin: false
     ayudanteUDP: 
       existencia: false
       inicio: false
@@ -172,7 +211,10 @@ personas:
   - nombre: "Sergio Mora"
     github: ""
     correo: ""
-    estudianteUDP: false
+    estudianteUDP:
+      existencia: false
+      inicio: false
+      fin: false
     ayudanteUDP: 
       existencia: false
       inicio: false
@@ -185,7 +227,10 @@ personas:
   - nombre: "Simón Gallardo"
     github: ""
     correo: "manuel.gallardo"
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 1234
+      fin: 1234
     ayudanteUDP: 
       existencia: true
       inicio: 1234
@@ -198,7 +243,10 @@ personas:
   - nombre: "Sofía Etchepare"
     github: ""
     correo: ""
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 1234
+      fin: 1234
     ayudanteUDP: 
       existencia: true
       inicio: 2025
@@ -211,7 +259,10 @@ personas:
   - nombre: "Sofía Pérez"
     github: ""
     correo: ""
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 1234
+      fin: 1234
     ayudanteUDP: 
       existencia: false
       inicio: false
@@ -224,7 +275,10 @@ personas:
   - nombre: "Vania Paredes"
     github: ""
     correo: "vania.paredes"
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 1234
+      fin: 1234
     ayudanteUDP: 
       existencia: true
       inicio: 2025
@@ -237,7 +291,10 @@ personas:
   - nombre: "Yamna Carrión"
     github: ""
     correo: "yamna.carrion"
-    estudianteUDP: true
+    estudianteUDP:
+      existencia: true
+      inicio: 1234
+      fin: 1234
     ayudanteUDP: 
       existencia: false
       inicio: false
