@@ -4,8 +4,10 @@ personas:
     github: "montoyamoraga"
     correo: "aaron.montoya"
     estudianteUDP: false
-
-    ayudanteUDP: false
+    ayudanteUDP: 
+      existencia: false
+      inicio: false
+      fin: false
     profeUDP:
       existencia: true
       inicio: 2023
@@ -15,7 +17,10 @@ personas:
     github: "andresmartin"
     correo: "andres.martin"
     estudianteUDP: false
-    ayudanteUDP: true
+    ayudanteUDP: 
+      existencia: true
+      inicio: 2023
+      fin: 2025
     profeUDP:
       existencia: false
       inicio: false
@@ -25,7 +30,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: true
-    ayudanteUDP: true
+    ayudanteUDP: 
+      existencia: true
+      inicio: 2026
+      fin: false
     profeUDP:
       existencia: false
       inicio: false
@@ -35,7 +43,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: false
-    ayudanteUDP: false
+    ayudanteUDP: 
+      existencia: false
+      inicio: false
+      fin: false
     profeUDP:
       existencia: true
       inicio: 2026
@@ -45,7 +56,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: false
-    ayudanteUDP: false
+    ayudanteUDP: 
+      existencia: false
+      inicio: false
+      fin: false
     profeUDP:
       existencia: true
       inicio: 2025
@@ -55,7 +69,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: true
-    ayudanteUDP: true
+    ayudanteUDP: 
+      existencia: true
+      inicio: 2026
+      fin: false
     profeUDP:
       existencia: false
       inicio: false
@@ -65,7 +82,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: true
-    ayudanteUDP: true
+    ayudanteUDP: 
+      existencia: true
+      inicio: 2025
+      fin: false
     profeUDP:
       existencia: false
       inicio: false
@@ -75,7 +95,10 @@ personas:
     github: "janisepulveda"
     correo: "janis.sepulveda"
     estudianteUDP: true
-    ayudanteUDP: true
+    ayudanteUDP: 
+      existencia: true
+      inicio: 2024
+      fin: false
     profeUDP:
       existencia: false
       inicio: false
@@ -85,7 +108,10 @@ personas:
     github: ""
     correo: "joaquin.gonzalez"
     estudianteUDP: false
-    ayudanteUDP: false
+    ayudanteUDP: 
+      existencia: false
+      inicio: false
+      fin: false
     profeUDP:
       existencia: true
       inicio: 2024
@@ -95,7 +121,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: true
-    ayudanteUDP: true
+    ayudanteUDP: 
+      existencia: true
+      inicio: 2025
+      fin: false
     profeUDP:
       existencia: false
       inicio: false
@@ -105,7 +134,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: false
-    ayudanteUDP: false
+    ayudanteUDP: 
+      existencia: false
+      inicio: false
+      fin: false
     profeUDP:
       existencia: true
       inicio: 2024
@@ -115,7 +147,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: true
-    ayudanteUDP: true
+    ayudanteUDP: 
+      existencia: true
+      inicio: 2026
+      fin: false
     profeUDP:
       existencia: false
       inicio: false
@@ -125,8 +160,10 @@ personas:
     github: "sergiomajluf"
     correo: "sergio.majluf"
     estudianteUDP: false
-    ayudanteUDP: false
-    profeUDP:
+    ayudanteUDP: 
+      existencia: false
+      inicio: false
+      fin: false    profeUDP:
       existencia: true
       inicio: 2023
       fin: false
@@ -135,8 +172,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: false
-    ayudanteUDP: false
-    profeUDP:
+    ayudanteUDP: 
+      existencia: false
+      inicio: false
+      fin: false    profeUDP:
       existencia: true
       inicio: 2024
       fin: false
@@ -145,7 +184,10 @@ personas:
     github: ""
     correo: "manuel.gallardo"
     estudianteUDP: true
-    ayudanteUDP: true
+    ayudanteUDP: 
+      existencia: true
+      inicio: 1234
+      fin: 1234
     profeUDP:
       existencia: true
       inicio: 1234
@@ -155,7 +197,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: true
-    ayudanteUDP: true
+    ayudanteUDP: 
+      existencia: true
+      inicio: 2025
+      fin: false
     profeUDP:
       existencia: false
       inicio: false
@@ -165,7 +210,10 @@ personas:
     github: ""
     correo: ""
     estudianteUDP: true
-    ayudanteUDP: false
+    ayudanteUDP: 
+      existencia: false
+      inicio: false
+      fin: false
     profeUDP:
       existencia: false
       inicio: false
@@ -175,7 +223,10 @@ personas:
     github: ""
     correo: "vania.paredes"
     estudianteUDP: true
-    ayudanteUDP: true
+    ayudanteUDP: 
+      existencia: true
+      inicio: 2025
+      fin: false
     profeUDP:
       existencia: false
       inicio: false
@@ -185,7 +236,10 @@ personas:
     github: ""
     correo: "yamna.carrion"
     estudianteUDP: true
-    ayudanteUDP: false
+    ayudanteUDP: 
+      existencia: false
+      inicio: false
+      fin: false
     profeUDP:
       existencia: false
       inicio: false
