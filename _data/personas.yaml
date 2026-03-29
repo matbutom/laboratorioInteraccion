@@ -16,6 +16,10 @@ personas:
     github: ""
     correo: ""
 
+  - nombre: "Félix Rodríguez"
+    github: ""
+    correo: ""
+
   - nombre: "Jacinta Barrenechea"
     github: ""
     correo: ""
@@ -35,6 +39,10 @@ personas:
   - nombre: "Matías Serrano"
     github: ""
     correo: ""
+
+  - nombre: "Santiago Gaete"
+    github: ""
+    correo: ""
   
   - nombre: "Sergio Majluf"
     github: "sergiomajluf"
@@ -48,6 +56,14 @@ personas:
     github: ""
     correo: "manuel.gallardo"
 
-  - nombre: "Vania Paredes"
+  - nombre: "Sofía Pérez"
     github: ""
     correo: ""
+
+  - nombre: "Vania Paredes"
+    github: ""
+    correo: "vania.paredes"
+
+  - nombre: "Yamna Carrión"
+    github: ""
+    correo: "yamna.carrion"
