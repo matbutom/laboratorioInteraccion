@@ -80,6 +80,22 @@ personas:
       inicio: 2025
       fin: false
 
+  - nombre: "Emilia Guerra"
+    github: ""
+    correo: ""
+    estudianteUDP:
+      existencia: true
+      inicio: 2021
+      fin: false
+    ayudanteUDP: 
+      existencia: true
+      inicio: 2026
+      fin: false
+    profeUDP:
+      existencia: false
+      inicio: false
+      fin: false
+
   - nombre: "Félix Rodríguez"
     github: ""
     correo: ""
