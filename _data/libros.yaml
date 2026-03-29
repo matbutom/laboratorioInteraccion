@@ -3,7 +3,7 @@ nombreBiblioteca: libros lid
 libros:
   - id: 1
     titulo: Synth gems 1
-    subtitulo: "Exploring vintage synthesizers: the rare, the odd, and the awesome"
+    subtitulo: Exploring vintage synthesizers: the rare, the odd, and the awesome
     autores: ["Mike Metlay"]
     palabrasClave: ["sintetizadores", "electrónica"]
     editorial: TBD
@@ -13,7 +13,7 @@ libros:
 
   - id: 2
     titulo: Push turn move
-    subtitulo: "Interface design in electronic music"
+    subtitulo: Interface design in electronic music
     autores: ["Kim Bjørn"]
     palabrasClave: ["sintetizadores", "electrónica"]
     editorial: TBD
@@ -23,7 +23,7 @@ libros:
 
  - id: 3
     titulo: Modular synthesis
-    subtitulo: "Patching Machine and People"
+    subtitulo: Patching machine and people
     autores: ["Erza J. Teboul"], ["Andreas Kitzmann"], ["Einar Engström"]
     palabrasClave: ["sintetizadores", "electrónica"]
     editorial: TBD
@@ -32,8 +32,8 @@ libros:
     codigoBarra: TBD
     
  - id: 4
-    titulo: Patch & Tweak
-    subtitulo: "Exploring modular synthesis"
+    titulo: Patch & tweak
+    subtitulo: Exploring modular synthesis
     autores: ["Kim Bjørn"], ["Chris Meyer"] 
     palabrasClave: ["sintetizadores", "electrónica"]
     editorial: TBD
@@ -42,8 +42,8 @@ libros:
     codigoBarra: TBD
 
 - id: 5
-    titulo: Aesthetic Programming
-    subtitulo: "A Handbook of Software Studies"
+    titulo: Aesthetic programming
+    subtitulo: A handbook of software studies
     autores: ["Winnie Soon"], ["Geoff Cox"] 
     palabrasClave: ["programación", "software"]
     editorial: TBD
@@ -52,8 +52,8 @@ libros:
     codigoBarra: TBD
 
 - id: 6
-    titulo: Handmade Electronic Music
-    subtitulo: "The Art of Hardware Hacking"
+    titulo: Handmade electronic music
+    subtitulo: The art of hardware hacking
     autores: ["Nicolas Collins"]
     palabrasClave: ["música", "electrónica"]
     editorial: TBD
@@ -62,8 +62,8 @@ libros:
     codigoBarra: TBD
 
 - id: 7
-    titulo: Chromatic Algorithms
-    subtitulo: "Synthetic Color, Computer Art, and Aesthetics after Code"
+    titulo: Chromatic algorithms
+    subtitulo: "Synthetic color, computer art, and aesthetics after code
     autores: ["Carolyn L. Kane"] 
     palabrasClave: ["arte", "computador"]
     editorial: TBD
@@ -73,7 +73,7 @@ libros:
 
 - id: 8
     titulo: Processing
-    subtitulo: "A Programming Handbook for Visual Designers and Artists"
+    subtitulo: A Programming Handbook for Visual Designers and Artists
     autores: ["Casey Reas"], ["Ben Fry"] 
     palabrasClave: ["visual", "programación"]
     editorial: TBD
@@ -92,7 +92,7 @@ libros:
     codigoBarra: TBD
 
 - id: 10
-    titulo: The Computers that made the World
+    titulo: The computers that made the World
     subtitulo:
     autores: ["Tim Danton"] 
     palabrasClave: ["computadores"]
@@ -102,7 +102,7 @@ libros:
     codigoBarra: TBD
 
 - id: 11
-    titulo: Fuentes del Derecho
+    titulo: Fuentes del derecho
     subtitulo: 
     autores: ["Martin Gubbins"] 
     palabrasClave: ["poesía", "chilena"]
@@ -112,8 +112,8 @@ libros:
     codigoBarra: TBD
 
 - id: 12
-    titulo: Haz Fácil lo imposible
-    subtitulo: "La guía para detectar y determinar los problemas de usabilidad"
+    titulo: Haz fácil lo imposible
+    subtitulo: La guía para detectar y determinar los problemas de usabilidad
     autores: ["Steve Krug"]  
     palabrasClave: ["experiencia", "usuario"]
     editorial: Anaya Multimedia
@@ -144,7 +144,7 @@ libros:
 - id: 15
     titulo: Articulations
     subtitulo: 
-    autores: ["Allison Parrich"]
+    autores: ["Allison Parrish"]
     palabrasClave: ["poesía", "programación"]
     editorial: Counterpath Press
     agno: TBD
@@ -153,7 +153,7 @@ libros:
 
 - id: 16
     titulo: Caps Lock
-    subtitulo: "How capitalism took hold of graphic desing and how to escape from it"
+    subtitulo: "How capitalism took hold of graphic design and how to escape from it"
     autores: ["Ruben Pater"] 
     palabrasClave: ["capitalismo", "diseño"]
     editorial: Valiz
@@ -232,7 +232,7 @@ libros:
     codigoBarra: TBD
     
 - id: 24
-    titulo: Patch & tweak whit Korg
+    titulo: Patch & tweak with Korg
     subtitulo: 
     autores: ["Kim Bjørn"]
     palabrasClave: ["electrónica", "sintetizadores"]
@@ -243,7 +243,7 @@ libros:
     
 - id: 25
     titulo: Inspire the music 
-    subtitulo: "50 years of roland history"
+    subtitulo: "50 years of Roland history"
     autores: ["Kim Bjørn"]
     palabrasClave: ["instrumentos", "sintetizadores"]
     editorial: BJOOKS
