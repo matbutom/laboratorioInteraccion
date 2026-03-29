@@ -16,10 +16,14 @@ personas:
       inicio: 2023
       fin: false
       cursos:
-        - "DIS8644 Taller de diseño de máquinas electrónicas"
-        - "DIS8645 Taller de diseño de máquinas computacionales"
-        - "DIS9079 Interacciones inalámbricas"
-        - "DIS09214 Pensamiento computacional"
+        - nombre: "DIS8644 Taller de diseño de máquinas electrónicas"
+          semestres: ["2026-1", "2025-1"]
+        - nombre: "DIS8645 Taller de diseño de máquinas computacionales"
+          semestres: ["2025-2"]
+        - nombre: "DIS9079 Interacciones inalámbricas"
+          semestres: ["2026-1"]
+        - nombre: "DIS09214 Pensamiento computacional"
+          semestres: ["2026-1"]
 
   - nombre: "Andrés Martin"
     github: "andresmartin"
