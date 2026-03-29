@@ -15,6 +15,11 @@ personas:
       existencia: true
       inicio: 2023
       fin: false
+      cursos:
+        - "DIS8644 Taller de diseño de máquinas electrónicas"
+        - "DIS8645 Taller de diseño de máquinas computacionales"
+        - "DIS9079 Interacciones inalámbricas"
+        - "DIS09214 Pensamiento computacional"
 
   - nombre: "Andrés Martin"
     github: "andresmartin"
