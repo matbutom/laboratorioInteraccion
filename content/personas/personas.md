@@ -65,10 +65,10 @@ Estudiante de cuarto año de diseño gráfico en UDP. Lleva dos años de experie
 
 {% endif %}
 
-- Cursos:
-    {% for curso in persona.profeUDP.cursos %}
-  - {{ curso }}
-    {% endfor %}
+    - Cursos:
+        {% for curso in persona.profeUDP.cursos %}
+        - {{ curso }}
+        {% endfor %}
 
 {% endif %}
 
