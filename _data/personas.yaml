@@ -163,7 +163,8 @@ personas:
     ayudanteUDP: 
       existencia: false
       inicio: false
-      fin: false    profeUDP:
+      fin: false
+    profeUDP:
       existencia: true
       inicio: 2023
       fin: false
@@ -175,7 +176,8 @@ personas:
     ayudanteUDP: 
       existencia: false
       inicio: false
-      fin: false    profeUDP:
+      fin: false
+    profeUDP:
       existencia: true
       inicio: 2024
       fin: false
