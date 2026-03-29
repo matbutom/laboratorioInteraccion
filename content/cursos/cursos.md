@@ -7,6 +7,13 @@ const eleventyNavigation = {
 
 # Cursos
 
+{% for curso in cursos.cursos %}
+
+## {{ curso.nombre }}
+
+{% endfor %}
+
+<!-- 
 ## 2026-1
 
 * DIS8644 Taller de diseño de máquinas electrónicas
@@ -87,4 +94,4 @@ const eleventyNavigation = {
 ## 2023-1
 
 * DIS8636 Taller de interfaz de usuario UI
-  * dictado por académiques Sergio Majluf y Aarón Montoya
+  * dictado por académiques Sergio Majluf y Aarón Montoya -->
