@@ -3,67 +3,132 @@ personas:
   - nombre: "Aarón Montoya Moraga"
     github: "montoyamoraga"
     correo: "aaron.montoya"
+    estudianteUDP: false
+    ayudanteUDP: false
+    profeUDP: true
 
   - nombre: "Andrés Martin"
     github: "andresmartin"
     correo: "andres.martin"
+    estudianteUDP: false
+    ayudanteUDP: true
+    profeUDP: false
 
   - nombre: "Bernardita Lobo"
     github: ""
     correo: ""
+    estudianteUDP: true
+    ayudanteUDP: true
+    profeUDP: false
 
   - nombre: "Carolina Pino"
     github: ""
     correo: ""
+    estudianteUDP: false
+    ayudanteUDP: false
+    profeUDP: true
+
+  - nombre: "Christian Oyarzún"
+    github: ""
+    correo: ""
+    estudianteUDP: false
+    ayudanteUDP: false
+    profeUDP: true
 
   - nombre: "Félix Rodríguez"
     github: ""
     correo: ""
+    estudianteUDP: true
+    ayudanteUDP: true
+    profeUDP: false
 
   - nombre: "Jacinta Barrenechea"
     github: ""
     correo: ""
+    estudianteUDP: true
+    ayudanteUDP: true
+    profeUDP: false
 
   - nombre: "Janis Sepúlveda"
     github: "janisepulveda"
     correo: "janis.sepulveda"
+    estudianteUDP: true
+    ayudanteUDP: true
+    profeUDP: false
 
   - nombre: "Joaquín González"
     github: ""
     correo: "joaquin.gonzalez"
+    estudianteUDP: false
+    ayudanteUDP: false
+    profeUDP: true
 
   - nombre: "Mateo Arce"
     github: ""
     correo: ""
+    estudianteUDP: true
+    ayudanteUDP: true
+    profeUDP: false
 
   - nombre: "Matías Serrano"
     github: ""
     correo: ""
+    estudianteUDP: false
+    ayudanteUDP: false
+    profeUDP: true
 
   - nombre: "Santiago Gaete"
     github: ""
     correo: ""
+    estudianteUDP: true
+    ayudanteUDP: true
+    profeUDP: false
   
   - nombre: "Sergio Majluf"
     github: "sergiomajluf"
     correo: "sergio.majluf"
+    estudianteUDP: false
+    ayudanteUDP: false
+    profeUDP: true
 
   - nombre: "Sergio Mora"
     github: ""
     correo: ""
+    estudianteUDP: false
+    ayudanteUDP: false
+    profeUDP: true
   
   - nombre: "Simón Gallardo"
     github: ""
     correo: "manuel.gallardo"
+    estudianteUDP: true
+    ayudanteUDP: true
+    profeUDP: true
+
+  - nombre: "Sofía Etchepare"
+    github: ""
+    correo: ""
+    estudianteUDP: true
+    ayudanteUDP: true
+    profeUDP: false
 
   - nombre: "Sofía Pérez"
     github: ""
     correo: ""
+    estudianteUDP: true
+    ayudanteUDP: false
+    profeUDP: false
 
   - nombre: "Vania Paredes"
     github: ""
     correo: "vania.paredes"
+    estudianteUDP: true
+    ayudanteUDP: true
+    profeUDP: false
 
   - nombre: "Yamna Carrión"
     github: ""
     correo: "yamna.carrion"
+    estudianteUDP: true
+    ayudanteUDP: false
+    profeUDP: false
