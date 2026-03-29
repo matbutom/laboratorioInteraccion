@@ -62,7 +62,13 @@ Estudiante de cuarto año de diseño gráfico en UDP. Lleva dos años de experie
 
 # Personas
 
-{% for persona in personas.personas %}
+{% for persona in personas.persaonas %}
 
-- {{ persona.nombre }}
+## {{ persona.nombre }}
+
+{% if persona.correo != ""
+
+- correo: {{ persona.correo }} @mail.udp.cl
+{% endif %}
+
 {% endfor %}
