@@ -4,8 +4,11 @@ personas:
     github: "montoyamoraga"
     correo: "aaron.montoya"
     estudianteUDP: false
+
     ayudanteUDP: false
     profeUDP: true
+      inicio: 2023
+      fin: false
 
   - nombre: "Andrés Martin"
     github: "andresmartin"
