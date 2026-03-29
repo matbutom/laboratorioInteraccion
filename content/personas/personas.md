@@ -79,11 +79,28 @@ Estudiante de cuarto año de diseño gráfico en UDP. Lleva dos años de experie
 {% endif %}
 
 {% endif %}
-{% if persona.ayudanteUDP %}
 
-- Ayudante
+{% if persona.ayudanteUDP.existencia %}
+
+{% if not persona.ayudanteUDP.fin %}
+
+- Ayudante desde {{ persona.ayudanteUDP.inicio }} hasta ahora
+
+{% else %}
+
+- Ayudante desde {{ persona.ayudanteUDP.inicio }} hasta {{ persona.ayudanteUDP.fin }}
+
+{% endif %}
+
+{% else %}
+
+- Profe desde {{ persona.profeUDP.inicio }} hasta {{ persona.profeUDP.fin }}
+
+{% endif %}
+
 {% endif %}
 {% if persona.estudianteUDP %}
+
 - Estudiante
 {% endif %}
 
