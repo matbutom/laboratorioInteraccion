@@ -2,8 +2,8 @@
 nombreBiblioteca: libros lid
 libros:
   - id: 1
-    titulo: Synth gems 1
-    subtitulo: Exploring vintage synthesizers: the rare, the odd, and the awesome
+    titulo: "Synth gems 1"
+    subtitulo: "Exploring vintage synthesizers: the rare, the odd, and the awesome"
     autores: ["Mike Metlay"]
     palabrasClave: ["sintetizadores", "electrónica"]
     editorial: TBD
@@ -12,8 +12,8 @@ libros:
     codigoBarra: TBD
 
   - id: 2
-    titulo: Push turn move
-    subtitulo: Interface design in electronic music
+    titulo: "Push turn move"
+    subtitulo: "Interface design in electronic music"
     autores: ["Kim Bjørn"]
     palabrasClave: ["sintetizadores", "electrónica"]
     editorial: TBD
@@ -22,8 +22,8 @@ libros:
     codigoBarra: TBD
 
  - id: 3
-    titulo: Modular synthesis
-    subtitulo: Patching machine and people
+    titulo: "Modular synthesis"
+    subtitulo: "Patching machine and people"
     autores: ["Erza J. Teboul"], ["Andreas Kitzmann"], ["Einar Engström"]
     palabrasClave: ["sintetizadores", "electrónica"]
     editorial: TBD
@@ -32,8 +32,8 @@ libros:
     codigoBarra: TBD
     
  - id: 4
-    titulo: Patch & tweak
-    subtitulo: Exploring modular synthesis
+    titulo: "Patch & tweak"
+    subtitulo: "Exploring modular synthesis"
     autores: ["Kim Bjørn"], ["Chris Meyer"] 
     palabrasClave: ["sintetizadores", "electrónica"]
     editorial: TBD
@@ -42,8 +42,8 @@ libros:
     codigoBarra: TBD
 
 - id: 5
-    titulo: Aesthetic programming
-    subtitulo: A handbook of software studies
+    titulo: "Aesthetic programming"
+    subtitulo: "A handbook of software studies"
     autores: ["Winnie Soon"], ["Geoff Cox"] 
     palabrasClave: ["programación", "software"]
     editorial: TBD
@@ -52,8 +52,8 @@ libros:
     codigoBarra: TBD
 
 - id: 6
-    titulo: Handmade electronic music
-    subtitulo: The art of hardware hacking
+    titulo: "Handmade electronic music"
+    subtitulo: "The art of hardware hacking"
     autores: ["Nicolas Collins"]
     palabrasClave: ["música", "electrónica"]
     editorial: TBD
@@ -62,8 +62,8 @@ libros:
     codigoBarra: TBD
 
 - id: 7
-    titulo: Chromatic algorithms
-    subtitulo: "Synthetic color, computer art, and aesthetics after code
+    titulo: "Chromatic algorithms"
+    subtitulo: "Synthetic color, computer art, and aesthetics after code"
     autores: ["Carolyn L. Kane"] 
     palabrasClave: ["arte", "computador"]
     editorial: TBD
@@ -72,8 +72,8 @@ libros:
     codigoBarra: TBD
 
 - id: 8
-    titulo: Processing
-    subtitulo: A Programming Handbook for Visual Designers and Artists
+    titulo: "Processing"
+    subtitulo: "A Programming Handbook for Visual Designers and Artists"
     autores: ["Casey Reas"], ["Ben Fry"] 
     palabrasClave: ["visual", "programación"]
     editorial: TBD
@@ -82,7 +82,7 @@ libros:
     codigoBarra: TBD
 
 - id: 9
-    titulo: Code
+    titulo: "Code"
     subtitulo: "Second Edition"
     autores: ["Charles Petzold"] 
     palabrasClave: ["código", "hardware", "software"]
@@ -92,7 +92,7 @@ libros:
     codigoBarra: TBD
 
 - id: 10
-    titulo: The computers that made the World
+    titulo: "The computers that made the World"
     subtitulo:
     autores: ["Tim Danton"] 
     palabrasClave: ["computadores"]
@@ -102,7 +102,7 @@ libros:
     codigoBarra: TBD
 
 - id: 11
-    titulo: Fuentes del derecho
+    titulo: "Fuentes del derecho"
     subtitulo: 
     autores: ["Martin Gubbins"] 
     palabrasClave: ["poesía", "chilena"]
@@ -112,8 +112,8 @@ libros:
     codigoBarra: TBD
 
 - id: 12
-    titulo: Haz fácil lo imposible
-    subtitulo: La guía para detectar y determinar los problemas de usabilidad
+    titulo: "Haz fácil lo imposible"
+    subtitulo: "La guía para detectar y determinar los problemas de usabilidad"
     autores: ["Steve Krug"]  
     palabrasClave: ["experiencia", "usuario"]
     editorial: Anaya Multimedia
@@ -122,7 +122,7 @@ libros:
     codigoBarra: TBD
 
 - id: 13
-    titulo: Imágenes de imágenes: del cuadro a la pantalla
+    titulo: "Imágenes de imágenes: del cuadro a la pantalla"
     subtitulo: 
     autores: ["Fernando Pérez Villalón"] 
     palabrasClave: ["análisis", "estudios mediales"]
@@ -132,7 +132,7 @@ libros:
     codigoBarra: TBD
 
 - id: 14 
-    titulo: De otras cosas y el amor
+    titulo: "De otras cosas y el amor"
     subtitulo: 
     autores: ["Pacífico Carrasco Gonzales"]
     palabrasClave: ["poesía", "chilena", "amor"]
@@ -142,7 +142,7 @@ libros:
     codigoBarra: TBD
 
 - id: 15
-    titulo: Articulations
+    titulo: "Articulations"
     subtitulo: 
     autores: ["Allison Parrish"]
     palabrasClave: ["poesía", "programación"]
@@ -152,7 +152,7 @@ libros:
     codigoBarra: TBD
 
 - id: 16
-    titulo: Caps Lock
+    titulo: "Caps Lock"
     subtitulo: "How capitalism took hold of graphic design and how to escape from it"
     autores: ["Ruben Pater"] 
     palabrasClave: ["capitalismo", "diseño"]
@@ -162,7 +162,7 @@ libros:
     codigoBarra: TBD
 
 - id: 17
-    titulo: How speak machine 
+    titulo: "How speak machine"
     subtitulo: "Computational Thinking for the rest of us"
     autores: ["John Maeda"]
     palabrasClave: ["pensamiento computacional", "algoritmos"]
@@ -172,8 +172,8 @@ libros:
     codigoBarra: TBD
 
 - id: 18
-    titulo: Make: analog synthesizers 
-    subtitulo: "A modern approach to old-school sound synthesis "
+    titulo: "Make: analog synthesizers"
+    subtitulo: "A modern approach to old-school sound synthesis"
     autores: ["Ray Wilson"]
     palabrasClave: ["sonido", "sintetizadores"]
     editorial: Make Community
@@ -182,7 +182,7 @@ libros:
     codigoBarra: TBD
 
 - id: 19
-    titulo: Pedagogy of hope 
+    titulo: "Pedagogy of hope"
     subtitulo: "Reliving pedagogy of the oppressed"
     autores: ["Paulo Freire"]
     palabrasClave: ["esperanza", "pedagogía"]
@@ -192,7 +192,7 @@ libros:
     codigoBarra: TBD
 
 - id: 20
-    titulo: Jeannette
+    titulo: "Jeannette"
     subtitulo: "Su desconocida vida y su irrupción en la política chilena"
     autores: ["Alejandra Carmona López"]
     palabrasClave: ["Política", "Biografía"]
@@ -202,7 +202,7 @@ libros:
     codigoBarra: TBD
 
 - id: 21
-    titulo: Física Conceptual 
+    titulo: "Física Conceptual"
     subtitulo: 
     autores: ["Paul G. Hewitt"]
     palabrasClave: ["Física", "Métodos"]
@@ -212,7 +212,7 @@ libros:
     codigoBarra: TBD
 
 - id: 22
-    titulo: The fitting book
+    titulo: "The fitting book"
     subtitulo: "Make sewing pattern alterations archive the perfect fit you desire"
     autores: ["Gina Renee Dunham"]
     palabrasClave: ["Patronaje", "diseño"]
@@ -222,7 +222,7 @@ libros:
     codigoBarra: TBD
     
 - id: 23
-    titulo: Digital art
+    titulo: "Digital art"
     subtitulo: "Third edition"
     autores: ["Christiane Paul"]
     palabrasClave: ["digital", "diseño"]
@@ -232,7 +232,7 @@ libros:
     codigoBarra: TBD
     
 - id: 24
-    titulo: Patch & tweak with Korg
+    titulo: "Patch & tweak with Korg"
     subtitulo: 
     autores: ["Kim Bjørn"]
     palabrasClave: ["electrónica", "sintetizadores"]
@@ -242,7 +242,7 @@ libros:
     codigoBarra: TBD
     
 - id: 25
-    titulo: Inspire the music 
+    titulo: "Inspire the music"
     subtitulo: "50 years of Roland history"
     autores: ["Kim Bjørn"]
     palabrasClave: ["instrumentos", "sintetizadores"]
