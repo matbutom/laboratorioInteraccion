@@ -217,13 +217,17 @@ personas:
       existencia: true
       inicio: 2022
       fin: false
+      cursos:
+      - nombre: "Taller de diseño de máquinas electrónicas"
+        sigla: "DIS8644"
+        semestres: ["2025-1"]
+      - nombre: "Taller de diseño de máquinas computacionales"
+        sigla: "DIS8645"
+        semestres: ["2025-2"]
     ayudanteUDP: 
       existencia: true
       inicio: 2026
       fin: false
-         cursos:
-        - nombre: "DIS8644 Taller de diseño de máquinas electrónicas"
-          semestres: ["2026-1", "2025-1"]
     profeUDP:
       existencia: false
       inicio: false
