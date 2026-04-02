@@ -392,12 +392,101 @@ libros:
     codigoBarra: TBD
 
   - id: 40
-    titulo:
+    titulo: "Tengo una Platita" 
+    subtitulo: "Pensamientos rumiantes sobre el dinero"
+    autores: ["Paola Molina"]
+    palabrasClave: ["ensayo", "humor", "sátira"]
+    editorial: "Plaza & Janés"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+    
+  - id: 41
+    titulo: "The book of Knowledge of Impractical Musical Device"
     subtitulo:
-    autores: []
-    palabrasClave: [""]
+    autores: ["Yann Seznec"]
+    palabrasClave: ["diseño de instrumentos",  "arte", "proyecto"]
     editorial: 
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
 
+  - id: 42
+    titulo: "Redoble por Rancas<<"
+    subtitulo:
+    autores: ["Manuel Scorza"]
+    palabrasClave: ["Novela", "Realismo mágico", "Literatura"]
+    editorial: "Alfaguara"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+    
+  - id: 43
+    titulo: "Vintage Synthesizers"
+    subtitulo: "Pioneering Designers, Groundbreaking Instruments, Collecting Tips, Mutants of Technology"
+    autores: ["Mark Vail"]
+    palabrasClave: ["Música", "Guía técnica","Historia de la tecnología"]
+    editorial: "Miller Freeman Books"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD 
+    
+  - id: 44
+    titulo: "MIDI for the Professional"
+    subtitulo:
+    autores: ["Paul D.", "Lehrman", "Tim Tully"]
+    palabrasClave: [""]
+    editorial: "Amsco Publications"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+ - id: 45
+    titulo: "Patch & Tweak with Korg"
+    subtitulo:
+    autores: ["Kim Bjørn"]
+    palabrasClave: ["tecnología musical", "guía", "sintetizadores"]
+    editorial: "Bjooks"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+ - id: 46
+    titulo: "The Guitar Circle"
+    subtitulo:
+    autores: ["Robert Fripp"]
+    palabrasClave: ["música", "filosofía", "guitarra"]
+    editorial: "Discipline Global Mobile"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+ - id: 47
+    titulo: "Mindstorms"
+    subtitulo: "Children, Computers, and Powerful Ideas"
+    autores: ["Seymour Papert"]
+    palabrasClave: ["educación", "programación"]
+    editorial: "Basic Books"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+ - id: 48
+    titulo: "Electrónica Digital Lógica Digital Integrada"
+    subtitulo: "Teoría, Problemas y Simulación"
+    autores: ["Santiago Acha", "Manuel Castro", "Julio Pérez", "Miguel Rioseras"]
+    palabrasClave: ["electrónica digital", "lógica combinacional", "simulación"]
+    editorial: "Alfaomega"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+ - id: 48
+    titulo: "Electrónica Digital Lógica Digital Integrada"
+    subtitulo: "Teoría, Problemas y Simulación"
+    autores: ["Santiago Acha", "Manuel Castro", "Julio Pérez", "Miguel Rioseras"]
+    palabrasClave: ["electrónica digital", "lógica combinacional", "simulación"]
+    editorial: "Alfaomega"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD

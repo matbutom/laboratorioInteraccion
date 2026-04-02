@@ -44,8 +44,9 @@ personas:
       fin: false
 
   - nombre: "Bernardita Lobo"
-    github: ""
-    correo: ""
+    github: "bernardita-jesus"
+    correo: "bernardita.lobo"
+    ig: "bernardita_jesus"
     estudianteUDP:
       existencia: true
       inicio: 2023
@@ -53,7 +54,9 @@ personas:
     ayudanteUDP: 
       existencia: true
       inicio: 2026
-      fin: false
+         cursos:
+        - nombre: "DI Fabricación Digital"
+       
     profeUDP:
       existencia: false
       inicio: false
@@ -92,8 +95,8 @@ personas:
       fin: false
 
   - nombre: "Emilia Guerra"
-    github: ""
-    correo: ""
+    github: "emiguerra"
+    correo: "emilia.guerra"
     estudianteUDP:
       existencia: true
       inicio: 2021
@@ -108,8 +111,8 @@ personas:
       fin: false
 
   - nombre: "Félix Rodríguez"
-    github: ""
-    correo: ""
+    github: "felix-rg416"
+    correo: "felix.rodriguez"
     estudianteUDP:
       existencia: true
       inicio: 2023
@@ -122,7 +125,7 @@ personas:
       existencia: false
       inicio: false
       fin: false
-
+      
   - nombre: "Jacinta Barrenechea"
     github: ""
     correo: ""
@@ -155,8 +158,7 @@ personas:
       existencia: false
       inicio: false
       fin: false
-
-
+      
   - nombre: "Joaquín González"
     github: ""
     correo: "joaquin.gonzalez"
@@ -174,8 +176,9 @@ personas:
       fin: false
 
   - nombre: "Mateo Arce"
-    github: ""
-    correo: ""
+    github: "matbutom"
+    Instagram: "matbutom" "rafita.studio"
+    correo: "mateo.arce"
     bio: "Diseñador gráfico de UDP. Su enfoque está en la intersección entre diseño gráfico y código, desarrollando sitios web, interfaces de usuario y sistemas de identidad visual, para crear experiencias visuales funcionales e innovadoras. Su tesis de pregrado es una exploración de  tipográfia interactiva. Las herramientas que usa incluyen Adobe y GitHub Pages."
     estudianteUDP:
       existencia: true
@@ -207,8 +210,9 @@ personas:
       fin: false
 
   - nombre: "Santiago Gaete"
-    github: ""
-    correo: ""
+    github: "santiagoClifford" "clifford1one" "clifford1one-corteEstudioso" 
+    correo: "santiago.gaete@mail.udp.cl"
+    instagram: "clifford1one"
     estudianteUDP:
       existencia: true
       inicio: 2022
@@ -217,6 +221,9 @@ personas:
       existencia: true
       inicio: 2026
       fin: false
+         cursos:
+        - nombre: "DIS8644 Taller de diseño de máquinas electrónicas"
+          semestres: ["2026-1", "2025-1"]
     profeUDP:
       existencia: false
       inicio: false
@@ -288,12 +295,12 @@ personas:
       fin: false
 
   - nombre: "Sofía Pérez"
-    github: ""
-    correo: ""
+    github: "sofia-perezm"
+    correo: "sofia.perez2"
     estudianteUDP:
       existencia: true
-      inicio: 1234
-      fin: 1234
+      inicio: 2023
+      fin: false
     ayudanteUDP: 
       existencia: false
       inicio: false
@@ -304,15 +311,15 @@ personas:
       fin: false
 
   - nombre: "Vania Paredes"
-    github: ""
+    github: "vaniaparedes"
     correo: "vania.paredes"
     estudianteUDP:
       existencia: true
-      inicio: 1234
-      fin: 1234
+      inicio: 2023
+      fin: false
     ayudanteUDP: 
       existencia: true
-      inicio: 2025
+      inicio: 2024
       fin: false
     profeUDP:
       existencia: false
@@ -320,12 +327,12 @@ personas:
       fin: false
 
   - nombre: "Yamna Carrión"
-    github: ""
+    github: "yamna-bit"
     correo: "yamna.carrion"
     estudianteUDP:
       existencia: true
-      inicio: 1234
-      fin: 1234
+      inicio: 2023
+      fin: false
     ayudanteUDP: 
       existencia: false
       inicio: false
