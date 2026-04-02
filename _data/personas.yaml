@@ -54,8 +54,8 @@ personas:
     ayudanteUDP: 
       existencia: true
       inicio: 2026
-         cursos:
-        - nombre: "DI Fabricación Digital"
+      fin: false
+      cursos: ["Fabricación Digital"]
        
     profeUDP:
       existencia: false
