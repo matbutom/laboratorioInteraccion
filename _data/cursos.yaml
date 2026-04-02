@@ -21,37 +21,37 @@ cursos:
       - semestre: "2025-1"
         profes: ["Aarón Montoya", "Matías Serrano"]
         ayudantes: ["Janis Sepúlveda", "Mateo Arce"]
- - sigla: "DIS09214"
+  - sigla: "DIS09214"
     nombre: "Pensamiento Computacional"
     semestres:
       - semestre: "2026-1"
         profes: ["Sergio Majluf", "Aarón Montoya"]
         ayudantes: ["", ""]  
- - sigla: "DIS09214"
+  - sigla: "DIS09214"
     nombre: "Pensamiento Computacional"
     semestres:
       - semestre: "2026-1"
         profes: ["Sergio Majluf", "Aarón Montoya"]
         ayudantes: ["", ""]       
- - sigla: "DIS8637"
+  - sigla: "DIS8637"
     nombre: "Taller de experiencia de usuario UX"
     semestres:
       - semestre: "2024-2"
         profes: ["Sergio Majluf", "Aarón Montoya"]
         ayudantes: ["", ""]
- - sigla: "DIS8636"
+  - sigla: "DIS8636"
     nombre: "Taller de interfaz de usuario UI"
     semestres:
       - semestre: "2024-1"
         profes: ["Sergio Majluf", "Aarón Montoya"]
         ayudantes: ["", ""]    
- - sigla: "DIS8637"
+  - sigla: "DIS8637"
     nombre: "Taller de experiencia de usuario UX"
     semestres:
       - semestre: "2023-2"
         profes: ["Sergio Majluf", "Aarón Montoya"]
-        ayudantes: ["", ""]  
- - sigla: "DIS8636"
+        ayudantes: ["", ""]
+  - sigla: "DIS8636"
     nombre: "Taller de interfaz de usuario UI"
     semestres:
       - semestre: "2023-1"
