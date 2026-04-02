@@ -441,7 +441,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
- - id: 45
+  - id: 45
     titulo: "Patch & Tweak with Korg"
     subtitulo:
     autores: ["Kim Bjørn"]
@@ -451,7 +451,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
- - id: 46
+  - id: 46
     titulo: "The Guitar Circle"
     subtitulo:
     autores: ["Robert Fripp"]
@@ -461,7 +461,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
- - id: 47
+  - id: 47
     titulo: "Mindstorms"
     subtitulo: "Children, Computers, and Powerful Ideas"
     autores: ["Seymour Papert"]
@@ -471,7 +471,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
- - id: 48
+  - id: 48
     titulo: "Electrónica Digital Lógica Digital Integrada"
     subtitulo: "Teoría, Problemas y Simulación"
     autores: ["Santiago Acha", "Manuel Castro", "Julio Pérez", "Miguel Rioseras"]
@@ -481,7 +481,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
- - id: 48
+  - id: 48
     titulo: "Electrónica Digital Lógica Digital Integrada"
     subtitulo: "Teoría, Problemas y Simulación"
     autores: ["Santiago Acha", "Manuel Castro", "Julio Pérez", "Miguel Rioseras"]
