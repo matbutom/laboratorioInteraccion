@@ -22,7 +22,7 @@ cursos:
             profes: ["Aarón Montoya", "Matías Serrano"]
             ayudantes: ["Janis Sepúlveda", "Mateo Arce"]
   - sigla: "DIS09214"
-    nombre: "Pensamiento Computacional"
+    nombre: "Pensamiento computacional"
     semestres:
       - semestre: "2026-1"
         secciones:
