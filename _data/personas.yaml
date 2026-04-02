@@ -177,7 +177,7 @@ personas:
 
   - nombre: "Mateo Arce"
     github: "matbutom"
-    Instagram: "matbutom" "rafita.studio"
+    instagram: "matbutom"
     correo: "mateo.arce"
     bio: "Diseñador gráfico de UDP. Su enfoque está en la intersección entre diseño gráfico y código, desarrollando sitios web, interfaces de usuario y sistemas de identidad visual, para crear experiencias visuales funcionales e innovadoras. Su tesis de pregrado es una exploración de  tipográfia interactiva. Las herramientas que usa incluyen Adobe y GitHub Pages."
     estudianteUDP:
@@ -210,7 +210,7 @@ personas:
       fin: false
 
   - nombre: "Santiago Gaete"
-    github: "santiagoClifford" "clifford1one" "clifford1one-corteEstudioso" 
+    github: "santiagoClifford"
     correo: "santiago.gaete@mail.udp.cl"
     instagram: "clifford1one"
     estudianteUDP:
