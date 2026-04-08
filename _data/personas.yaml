@@ -218,12 +218,9 @@ personas:
       inicio: 2022
       fin: false
       cursos:
-      - nombre: "Taller de diseño de máquinas electrónicas"
-        sigla: "DIS8644"
-        semestres: ["2025-1"]
-      - nombre: "Taller de diseño de máquinas computacionales"
-        sigla: "DIS8645"
-        semestres: ["2025-2"]
+      - nombre: "Administración financiera"
+        sigla: "DIS8012_CA01"
+        semestres: ["2026-1"]
     ayudanteUDP: 
       existencia: true
       inicio: 2026
@@ -252,7 +249,7 @@ personas:
 
   - nombre: "Sergio Mora"
     github: ""
-    correo: ""
+    correo: "sergio.mora1"
     estudianteUDP:
       existencia: false
       inicio: false
