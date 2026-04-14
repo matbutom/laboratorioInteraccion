@@ -127,8 +127,8 @@ personas:
       fin: false
       
   - nombre: "Jacinta Barrenechea"
-    github: ""
-    correo: ""
+    github: "jacintaOOO"
+    correo: "jacinta.barrenechea"
     estudianteUDP:
       existencia: true
       inicio: 2021
@@ -194,8 +194,8 @@ personas:
       fin: false
 
   - nombre: "Matías Serrano"
-    github: ""
-    correo: ""
+    github: "misaaaaaa"
+    correo: "matias.serrano"
     estudianteUDP:
       existencia: false
       inicio: false
