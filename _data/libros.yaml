@@ -481,12 +481,73 @@ libros:
     isbn: TBD
     codigoBarra: TBD
 
-  - id: 48
-    titulo: "Electrónica Digital Lógica Digital Integrada"
-    subtitulo: "Teoría, Problemas y Simulación"
-    autores: ["Santiago Acha", "Manuel Castro", "Julio Pérez", "Miguel Rioseras"]
+  - id: 49
+    titulo: "Serious Python"
+    subtitulo: "Black-Belt Advice on Deployment, Scalability, Testing, and More"
+    autores: ["Julien Danjou"]
     palabrasClave: ["electrónica digital", "lógica combinacional", "simulación"]
-    editorial: "Alfaomega"
+    editorial: ""
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
+
+  - id: 50
+    titulo: "Object-Oriented Python"
+    subtitulo: "Master OOP by Building Games and GUIs"
+    autores: ["Irv Kalb"]
+    palabrasClave: ["electrónica digital", "lógica combinacional", "simulación"]
+    editorial: "No Starch Press"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+  - id: 51
+    titulo: "Automate the Boring Stuff with Python"
+    subtitulo: "Practical Programming for Total Beginners"
+    autores: ["Al Sweigart"]
+    palabrasClave: ["automatización", "procesamiento de datos", "productividad"]
+    editorial: "No Starch Press"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+  - id: 52
+    titulo: "Political Interventions"
+    subtitulo: "Edition Digital Culture 1"
+    autores: ["Dominik Landwehr", "Christoph Wachter", "Mathias Jud"]
+    palabrasClave: ["cultura digital", "activismo", "intervención política"]
+    editorial: "Migros-Kulturprozent"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD
+
+  - id: 53
+    titulo: "Depeloping synthesizers with vcv rack"
+    subtitulo: 
+    autores: ["Leonardo Gabrielli"]
+    palabrasClave: ["síntesis modular", "audio digital", "VCV Rack"]
+    editorial: "Focal Press"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD   
+
+  - id: 54
+    titulo: "Hello, Robot"
+    subtitulo: "Design between Human and Machine"
+    autores: ["Mateo Kries", "Christoph Thun-Hohenstein", "Amelie Klein"]
+    palabrasClave: ["robótica", "interacción humano-máquina", "inteligencia artificial"]
+    editorial: ""
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD    
+
+  - id: 
+    titulo: ""
+    subtitulo: ""
+    autores: [""]
+    palabrasClave: [""]
+    editorial: ""
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD    
+
