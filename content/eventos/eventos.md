@@ -9,7 +9,7 @@ const eleventyNavigation = {
 
 ## 2026
 
-Processing Community Day
+Processing Community Day 2026 - Sede Santiago de Chile
 
 [Bases de la convocatoria](https://docs.google.com/document/d/e/2PACX-1vQbIUu0ZQKrMiw6ld12CDybDhX9rSsFq_Hvbv23XAs3-Mry6k_iIU6uyP9puxSvqBOQUr9evXRsuCFB/pub)
 
