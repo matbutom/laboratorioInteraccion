@@ -55,8 +55,9 @@ personas:
       existencia: true
       inicio: 2026
       fin: false
-      cursos: ["Fabricación Digital"]
-       
+      curso:
+        - nombre: "DIS0915 Fabricación Digital"
+          semestres: ["2026-1"]       
     profeUDP:
       existencia: false
       inicio: false
@@ -105,6 +106,9 @@ personas:
       existencia: true
       inicio: 2026
       fin: false
+      curso:
+        - nombre: "DIS8012 Administración financiera"
+          semestres: ["2026-1"]
     profeUDP:
       existencia: false
       inicio: false
@@ -119,7 +123,7 @@ personas:
       fin: false
     ayudanteUDP: 
       existencia: true
-      inicio: 2026
+      inicio: false
       fin: false
     profeUDP:
       existencia: false
@@ -127,8 +131,8 @@ personas:
       fin: false
       
   - nombre: "Jacinta Barrenechea"
-    github: ""
-    correo: ""
+    github: "jacintaOOO"
+    correo: "jacinta.barrenechea"
     estudianteUDP:
       existencia: true
       inicio: 2021
@@ -137,6 +141,11 @@ personas:
       existencia: true
       inicio: 2025
       fin: false
+      curso:
+        - nombre: "DIS09214 Pensamiento computacional"
+          semestres: ["2026-1"]
+        - nombre: "DIS8949 Introducción al diseño de servicios"
+          semestres: ["2026-1"]  
     profeUDP:
       existencia: false
       inicio: false
@@ -188,14 +197,17 @@ personas:
       existencia: true
       inicio: 2025
       fin: false
+      curso:
+        - nombre: "DIS8012 Administración financiera"
+          semestres: ["2026-1"]
     profeUDP:
       existencia: false
       inicio: false
       fin: false
 
   - nombre: "Matías Serrano"
-    github: ""
-    correo: ""
+    github: "misaaaaaa"
+    correo: "matias.serrano"
     estudianteUDP:
       existencia: false
       inicio: false
@@ -217,14 +229,15 @@ personas:
       existencia: true
       inicio: 2022
       fin: false
-      cursos:
-      - nombre: "Administración financiera"
-        sigla: "DIS8012_CA01"
-        semestres: ["2026-1"]
+      
     ayudanteUDP: 
       existencia: true
       inicio: 2026
       fin: false
+      curso:
+        - nombre: "DIS8012 Administración financiera"
+          semestres: ["2026-1"]
+          
     profeUDP:
       existencia: false
       inicio: false
