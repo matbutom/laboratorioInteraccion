@@ -541,13 +541,72 @@ libros:
     isbn: TBD
     codigoBarra: TBD    
 
-  - id: 
-    titulo: ""
-    subtitulo: ""
-    autores: [""]
-    palabrasClave: [""]
-    editorial: ""
+  - id: 55
+    titulo: "Design an rp2040 Board with Kicad"
+    subtitulo: "Creating Raspberry Pi Pico-compatible PCBs"
+    autores: ["Jo Hinchliffe", "Ben Everard"]
+    palabrasClave: ["KiCad", "PCB", "Hardware"]
+    editorial: "Raspberry Pi Press"
     agno: TBD
     isbn: TBD
-    codigoBarra: TBD    
+    codigoBarra: TBD 
 
+  - id: 56
+    titulo: "El Jinete Inmenso"
+    subtitulo: 
+    autores: ["Manuel Scorza"]
+    palabrasClave: ["Novela", "Literatura peruana", "Conflictos agrarios"]
+    editorial: "Siglo Veintiuno Editores"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD  
+
+  - id: 57
+    titulo: "La tumba del Relámpago"
+    subtitulo: 
+    autores: ["Manuel Scorza"]
+    palabrasClave: ["Novela", "Literatura peruana", "Conflictos agrarios"]
+    editorial: "Siglo Veintiuno Editores"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD  
+
+  - id: 58
+    titulo: "Cantar de Agapito Robles"
+    subtitulo: 
+    autores: ["Manuel Scorza"]
+    palabrasClave: ["Novela", "Literatura peruana", "Conflictos agrarios"]
+    editorial: "Siglo Veintiuno Editores"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD 
+
+  - id: 59
+    titulo: "La Danza inmóvil"
+    subtitulo: 
+    autores: ["Manuel Scorza"]
+    palabrasClave: ["Novela", "Literatura peruana", "Conflictos agrarios"]
+    editorial: "Siglo Veintiuno Editores"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD  
+
+  - id: 60
+    titulo: "Redoble por Rancas"
+    subtitulo: 
+    autores: ["Manuel Scorza"]
+    palabrasClave: ["Novela", "Literatura peruana", "Conflictos agrarios"]
+    editorial: "Siglo Veintiuno Editores"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD  
+
+  - id: 61
+    titulo: "Garabombo el Invisible"
+    subtitulo: 
+    autores: ["Manuel Scorza"]
+    palabrasClave: ["Novela", "Literatura peruana", "Conflictos agrarios"]
+    editorial: "Siglo Veintiuno Editores"
+    agno: TBD
+    isbn: TBD
+    codigoBarra: TBD  
