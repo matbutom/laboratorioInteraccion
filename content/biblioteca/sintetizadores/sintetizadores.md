@@ -22,7 +22,9 @@ Enlaces:
 Imágenes:
 {% for imagen in sintetizador.imagenes %}
 
-![{{ sintetizador.marca }} {{ sintetizador.modelo }}]({{ "sintetizadores-imagenes/" + imagen }})
+<!-- ![{{ sintetizador.marca }} {{ sintetizador.modelo }}]({{ "sintetizadores-imagenes/" + imagen }}) -->
+
+![{{ sintetizador.marca }} {{ sintetizador.modelo }}]({{ ("/sintetizadores-imagenes/" + imagen) | url }})
 
 {% endfor %}
 

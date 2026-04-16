@@ -13,6 +13,6 @@ sintetizadores:
     marca: "Korg"
     modelo: "Minilogue"
     categorias: ["sintetizador", "polifónico", "analógico"]
-    enlaces: ["https://www.tatsuyatakahashi.com/2017-korg-monologue"]
+    enlaces: [""]
     imagenes: ["korg-minilogue.jpg"]
 
