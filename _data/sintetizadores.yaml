@@ -1,0 +1,16 @@
+---
+nombreBiblioteca: sintetizadores lid
+sintetizadores:
+
+  - id: 1
+    marca: "Moog"
+    modelo: "Subharmonicon"
+    categorias: ["sintetizador", "analógico", "semimodular", "polirítmico"]
+    enlaces: ["https://www.moogmusic.com/synthesizers/subharmonicon/"]
+
+  - id: 2
+    marca: "Korg"
+    modelo: "Minilogue"
+    categorias: ["sintetizador", "polifónico", "analógico"]
+    enlaces: ["https://www.tatsuyatakahashi.com/2017-korg-monologue"]
+

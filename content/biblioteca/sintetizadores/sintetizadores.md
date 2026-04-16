@@ -7,14 +7,16 @@ const eleventyNavigation = {
 
 # Sintetizadores
 
-## BASTL instruments microGranny 2
+{% for sintetizador in sintetizadores.sintetizadores %}
 
-- Referencia: <https://bastl-instruments.com/instruments/microgranny>
+## {{ sintetizador.marca }} {{ sintetizador.modelo }}
 
-## BASTL instruments microGranny Monolith
+Categorías: {{ sintetizador.categorias | join(", ") }}
 
-- Referencia: <https://bastl-instruments.com/instruments/microgranny-monolith>
+Enlaces:
+{% for enlace in sintetizador.enlaces %}
 
-## Rucci Instruments Drone Jar
+- [{{ enlace }}]({{ enlace }})
+{% endfor %}
 
-- Referencia: <https://handmadeelectronicinstruments.com/product/drone-jar/>
+{% endfor %}
