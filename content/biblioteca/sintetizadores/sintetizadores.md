@@ -19,4 +19,10 @@ Enlaces:
 - [{{ enlace }}]({{ enlace }})
 {% endfor %}
 
+Imágenes:
+{% for imagen in sintetizador.imagenes %}
+
+- ![{{ sintetizador.marca }} {{ sintetizador.modelo }}]({{ "./imagenes/" + imagen }})
+{% endfor %}
+
 {% endfor %}
