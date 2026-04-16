@@ -1,15 +1,3 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>LID UDP</title>
-		<meta name="description" content="Laboratorio de Interacción Digital, Universidad Diego Portales">
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="LID UDP">
-		
-		
-		
-		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	font-family: 'B612 Mono';
@@ -308,48 +296,5 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
-}</style>
-		
-	</head>
-	<body>
-		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+}
 
-		<header>
-			<a href="/" class="home-link">LID UDP</a>
-			<nav>
-				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
-				<ul class="nav">
-					<li class="nav-item"><a href="/">Info</a></li>
-					<li class="nav-item"><a href="/personas/">Personas</a></li>
-					<li class="nav-item"><a href="/cursos/">Cursos</a></li>
-					<li class="nav-item"><a href="/investigacion/">Investigación</a></li>
-					<li class="nav-item"><a href="/eventos/">Eventos</a></li>
-					<li class="nav-item"><a href="/residencias/">Residencias</a></li>
-					<li class="nav-item"><a href="/biblioteca/">Biblioteca</a></li>
-					<li class="nav-item"><a href="/feed/feed.xml"></a></li>
-				</ul>
-			</nav>
-		</header>
-
-		<main id="main">
-			<heading-anchors>
-				
-
-<h1 id="tags">Tags</h1>
-
-<ul>
-
-</ul>
-
-
-			</heading-anchors>
-		</main>
-
-		<footer>
-			<p><em>Página web  construida con <a href="https://www.11ty.dev/">Eleventy v3.1.5</a></em></p>
-		</footer>
-
-		<!-- Esta web `/tags/` fue construida en 2026-04-16T17:46:02.200Z -->
-		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
-	</body>
-</html>

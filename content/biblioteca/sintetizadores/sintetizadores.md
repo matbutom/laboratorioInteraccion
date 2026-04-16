@@ -19,4 +19,11 @@ Enlaces:
 - [{{ enlace }}]({{ enlace }})
 {% endfor %}
 
+Imágenes:
+{% for imagen in sintetizador.imagenes %}
+{% if imagen %}
+<img src="/public/sintetizadores-imagenes/{{ imagen }}" alt="{{ sintetizador.marca }} {{ sintetizador.modelo }}" eleventy:ignore />
+{% endif %}
+{% endfor %}
+
 {% endfor %}
