@@ -14,7 +14,3 @@ Secciones
 - <a href="./libros/">Libros</a>
 - <a href="./secuenciadores/">Secuenciadores</a>
 - <a href="./sintetizadores/">Sintetizadores</a>
-
-## Scanner 3D
-
-TODO

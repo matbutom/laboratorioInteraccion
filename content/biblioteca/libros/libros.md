@@ -9,5 +9,10 @@ const eleventyNavigation = {
 
 {% for libro in libros.libros %}
 
-- {{ libro.titulo }} de editorial {{ libro.editorial }}
+## {{ libro.titulo }}
+
+- Autores: {% for autor in libro.autores %}{{ autor }}{% if not loop.last %}, {% endif %}{% endfor %}
+- Editorial: {{ libro.editorial }}
+- Año: {{ libro.agno }}
+- Palabras clave: {% for palabra in libro.palabrasClave %}{{ palabra }}{% if not loop.last %}, {% endif %}{% endfor %}
 {% endfor %}
