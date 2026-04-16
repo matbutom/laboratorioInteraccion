@@ -55,7 +55,7 @@ personas:
       existencia: true
       inicio: 2026
       fin: false
-      curso:
+      cursos:
         - nombre: "DIS0915 Fabricación Digital"
           semestres: ["2026-1"]       
     profeUDP:
@@ -106,7 +106,7 @@ personas:
       existencia: true
       inicio: 2026
       fin: false
-      curso:
+      cursos:
         - nombre: "DIS8012 Administración financiera"
           semestres: ["2026-1"]
     profeUDP:
@@ -141,7 +141,7 @@ personas:
       existencia: true
       inicio: 2025
       fin: false
-      curso:
+      cursos:
         - nombre: "DIS09214 Pensamiento computacional"
           semestres: ["2026-1"]
         - nombre: "DIS8949 Introducción al diseño de servicios"
@@ -197,7 +197,7 @@ personas:
       existencia: true
       inicio: 2025
       fin: false
-      curso:
+      cursos:
         - nombre: "DIS8012 Administración financiera"
           semestres: ["2026-1"]
     profeUDP:
@@ -234,7 +234,7 @@ personas:
       existencia: true
       inicio: 2026
       fin: false
-      curso:
+      cursos:
         - nombre: "DIS8012 Administración financiera"
           semestres: ["2026-1"]
           
