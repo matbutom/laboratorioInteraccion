@@ -16,3 +16,17 @@ sintetizadores:
     enlaces: [""]
     imagenes: ["korg-minilogue.jpg"]
 
+  - id: 3
+    marca: ""
+    modelo: ""
+    categorias: ["sintetizador", "polifónico", "analógico"]
+    enlaces: [""]
+    imagenes: [""]
+
+  - id: 4
+    marca: ""
+    modelo: ""
+    categorias: ["sintetizador", "polifónico", "analógico"]
+    enlaces: [""]
+    imagenes: [""]
+
