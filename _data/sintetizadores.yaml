@@ -7,26 +7,81 @@ sintetizadores:
     modelo: "Subharmonicon"
     categorias: ["sintetizador", "analógico", "semimodular", "polirítmico"]
     enlaces: ["https://www.moogmusic.com/synthesizers/subharmonicon/"]
-    imagenes: [""]
+    imagenes: ["moog-01.jpeg"]
 
   - id: 2
     marca: "Korg"
     modelo: "Minilogue"
     categorias: ["sintetizador", "polifónico", "analógico"]
     enlaces: [""]
-    imagenes: ["korg-minilogue.jpg"]
+    imagenes: ["korg-01.jpeg"]
 
   - id: 3
+    marca: "Dave Smith Instruments"
+    modelo: "Mopho"
+    categorias: ["sintetizador", "monofónico", "analógico"]
+    enlaces: [""]
+    imagenes: ["dave-smith-instruments-01.jpeg"]
+
+  - id: 4
+    marca: "Moog"
+    modelo: "Mother-32"
+    categorias: ["sintetizador", "semimodular", "analógico"]
+    enlaces: [""]
+    imagenes: ["moog-02.jpeg"]
+
+  - id: 5
+    marca: "Moog"
+    modelo: "DFMA"
+    categorias: ["sintetizador", "semimodular", "percutoción", "analógico"]
+    enlaces: [""]
+    imagenes: ["moog-03.jpeg"]
+
+  - id: 0
     marca: ""
     modelo: ""
-    categorias: ["sintetizador", "polifónico", "analógico"]
+    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
     imagenes: [""]
 
-  - id: 4
+  - id: 0
     marca: ""
     modelo: ""
-    categorias: ["sintetizador", "polifónico", "analógico"]
+    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
     imagenes: [""]
+
+  - id: 0
+    marca: ""
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: [""]
+
+  - id: 0
+    marca: ""
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: [""]
+
+  - id: 0
+    marca: ""
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: [""]
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
