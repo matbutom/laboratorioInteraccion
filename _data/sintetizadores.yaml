@@ -42,7 +42,35 @@ sintetizadores:
     modelo: ""
     categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
-    imagenes: [""]
+    imagenes: ["asturia-01.jpeg"]
+
+  - id: 0
+    marca: ""
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["moog-03.jpeg"]
+
+  - id: 0
+    marca: ""
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["novation-01.jpeg"]
+
+  - id: 0
+    marca: ""
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["roland-01.jpeg"]
+
+  - id: 0
+    marca: ""
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["roland-02.jpeg"]
 
   - id: 0
     marca: ""
@@ -64,18 +92,6 @@ sintetizadores:
     categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
     imagenes: [""]
-
-  - id: 0
-    marca: ""
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
-    imagenes: [""]
-
-
-
-
-
 
 
 
