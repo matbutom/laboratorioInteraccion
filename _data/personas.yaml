@@ -107,7 +107,7 @@ personas:
       inicio: 2026
       fin: false
       cursos:
-        - nombre: "DIS8012 Administración financiera"
+        - nombre: "DIS8644 "
           semestres: ["2026-1"]
     profeUDP:
       existencia: false
@@ -122,7 +122,7 @@ personas:
       inicio: 2023
       fin: false
     ayudanteUDP: 
-      existencia: true
+      existencia: false
       inicio: false
       fin: false
     profeUDP:
@@ -229,15 +229,13 @@ personas:
       existencia: true
       inicio: 2022
       fin: false
-      
     ayudanteUDP: 
       existencia: true
       inicio: 2026
       fin: false
       cursos:
         - nombre: "DIS8012 Administración financiera"
-          semestres: ["2026-1"]
-          
+          semestres: ["2026-1"]     
     profeUDP:
       existencia: false
       inicio: false
@@ -293,16 +291,19 @@ personas:
       fin: false
 
   - nombre: "Sofía Etchepare"
-    github: ""
-    correo: ""
+    github: "Bumwox"
+    correo: "sofia.etchepare"
     estudianteUDP:
       existencia: true
-      inicio: 1234
-      fin: 1234
+      inicio: 2022
+      fin: false
     ayudanteUDP: 
       existencia: true
       inicio: 2025
       fin: false
+      cursos:
+        - nombre: "Programacion creativa multimedia"
+          semestres: ["2026-1"]    
     profeUDP:
       existencia: false
       inicio: false
