@@ -346,6 +346,11 @@ personas:
       existencia: true
       inicio: 2024
       fin: false
+      cursos:
+        - nombre: "Geometría Básica"
+          semestres: ["2024-1"]
+        - nombre: "DIS09214 Pensamiento Computacional"
+          semestres: ["2026-1"]   
     profeUDP:
       existencia: false
       inicio: false
