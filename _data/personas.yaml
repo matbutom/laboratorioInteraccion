@@ -64,8 +64,8 @@ personas:
       fin: false
 
   - nombre: "Carolina Pino"
-    github: ""
-    correo: ""
+    github: 
+    correo: "maria.pino6"
     estudianteUDP:
       existencia: false
       inicio: false
@@ -78,7 +78,10 @@ personas:
       existencia: true
       inicio: 2026
       fin: false
-
+      cursos:
+        - nombre: "DIS09211 Taller III: Problema y Concepto"
+          semestres: ["2026-1"]
+          
   - nombre: "Christian Oyarzún"
     github: "coyarzun"
     correo: "christian.oyarzun"
