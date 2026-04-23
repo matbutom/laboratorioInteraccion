@@ -32,21 +32,21 @@ sintetizadores:
 
   - id: 5
     marca: "Asturia"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    modelo: "MiniLab 3"
+    categorias: ["controlador"]
+    enlaces: ["https://www.arturia.com/es/products/hybrid-synths/minilab-3/overview"]
     imagenes: ["asturia-01.jpeg"]
 
   - id: 6
     marca: "Korg"
     modelo: "Minilogue"
     categorias: ["sintetizador", "polifónico", "analógico"]
-    enlaces: [""]
+    enlaces: ["https://www.korg.com/cl/products/synthesizers/minilogue/"]
     imagenes: ["korg-01.jpeg"]
 
   - id: 7
     marca: "Korg"
-    modelo: ""
+    modelo: "Volca Sample"
     categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
     imagenes: ["korg-02.jpeg"]
