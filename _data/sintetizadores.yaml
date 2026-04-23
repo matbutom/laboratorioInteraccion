@@ -132,8 +132,15 @@ sintetizadores:
     marca: "Bastl Instruments"
     modelo: "Microgranny MG 2"
     categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    enlaces: ["https://bastl-instruments.com/instruments/microgranny"]
     imagenes: ["bastl-instruments-01.jpeg"]
+
+  - id: 0
+    marca: "Bastl Instruments"
+    modelo: "Illuminati"
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: ["https://bastl-instruments.com/instruments/illuminati"]
+    imagenes: ["bastl-instruments-02.jpeg"]
 
  - id: 0
     marca: "Make Noise Music-01"
@@ -141,6 +148,13 @@ sintetizadores:
     categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: ["https://www.makenoisemusic.com/synthesizers-and-controllers/0-ctrl/"]
     imagenes: ["make-noise-music-01.jpeg"]
+
+ - id: 0
+    marca: ""
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: [".jpeg"]
 
 
 
