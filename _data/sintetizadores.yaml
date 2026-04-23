@@ -47,29 +47,29 @@ sintetizadores:
   - id: 7
     marca: "Korg"
     modelo: "Volca Sample"
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    categorias: ["secuenciador", "sampler", "digital"]
+    enlaces: ["https://www.korg.com/cl/products/dj/volca_sample/index.php"]
     imagenes: ["korg-02.jpeg"]
 
   - id: 8
     marca: "Korg"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    modelo: "Volca Sample"
+    categorias: ["secuenciador", "sampler", "digital"]
+    enlaces: ["https://www.korg.com/cl/products/dj/volca_sample/index.php"]
     imagenes: ["korg-03.jpeg"]
 
   - id: 9
     marca: "Korg"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    modelo: "SQ-64 Poly Secuencer"
+    categorias: ["secuenciador", "polifónico"]
+    enlaces: ["https://www.korg.com/cl/products/dj/sq_64/"]
     imagenes: ["korg-04.jpeg"]
 
   - id: 10
     marca: "Korg"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    modelo: "SDD-3000 Pedal"
+    categorias: ["pedal", "preamplificador", "analógico", "delay"]
+    enlaces: ["https://www.korg.com/nz/products/effects/sdd3000_pedal/"]
     imagenes: ["korg-05.jpeg"]
 
   - id: 11
