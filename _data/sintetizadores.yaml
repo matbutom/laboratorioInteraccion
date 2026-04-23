@@ -74,16 +74,16 @@ sintetizadores:
 
   - id: 11
     marca: "Novation"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
+    modelo: "Launch Control XL"
+    categorias: ["controlador MIDI"]
     enlaces: [""]
     imagenes: ["novation-01.jpeg"]
 
   - id: 12
     marca: "Roland"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    modelo: "TR-08"
+    categorias: ["caja de ritmos", "percusión"]
+    enlaces: ["https://www.roland.com/es-es/products/tr-08/"]
     imagenes: ["roland-01.jpeg"]
 
   - id: 13
