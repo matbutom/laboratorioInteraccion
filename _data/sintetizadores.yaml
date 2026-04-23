@@ -2,96 +2,131 @@
 nombreBiblioteca: sintetizadores lid
 sintetizadores:
 
-  - id: 1
+  - id: 0
     marca: "Moog"
     modelo: "Subharmonicon"
     categorias: ["sintetizador", "analógico", "semimodular", "polirítmico"]
     enlaces: ["https://www.moogmusic.com/synthesizers/subharmonicon/"]
     imagenes: ["moog-01.jpeg"]
 
-  - id: 2
-    marca: "Korg"
-    modelo: "Minilogue"
-    categorias: ["sintetizador", "polifónico", "analógico"]
-    enlaces: [""]
-    imagenes: ["korg-01.jpeg"]
-
-  - id: 3
-    marca: "Dave Smith Instruments"
-    modelo: "Mopho"
-    categorias: ["sintetizador", "monofónico", "analógico"]
-    enlaces: [""]
-    imagenes: ["dave-smith-instruments-01.jpeg"]
-
-  - id: 4
+  - id: 0
     marca: "Moog"
     modelo: "Mother-32"
     categorias: ["sintetizador", "semimodular", "analógico"]
     enlaces: [""]
     imagenes: ["moog-02.jpeg"]
 
-  - id: 5
+  - id: 0
     marca: "Moog"
     modelo: "DFMA"
-    categorias: ["sintetizador", "semimodular", "percutoción", "analógico"]
+    categorias: ["sintetizador", "semimodular", "percución", "analógico"]
     enlaces: [""]
     imagenes: ["moog-03.jpeg"]
 
   - id: 0
-    marca: ""
+    marca: "Dave Smith Instruments"
+    modelo: "Mopho"
+    categorias: ["sintetizador", "monofónico", "analógico"]
+    enlaces: [""]
+    imagenes: ["dave-smith-instruments-01.jpeg"]
+
+  - id: 0
+    marca: "Asturia"
     modelo: ""
-    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
     imagenes: ["asturia-01.jpeg"]
 
   - id: 0
-    marca: ""
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    marca: "Korg"
+    modelo: "Minilogue"
+    categorias: ["sintetizador", "polifónico", "analógico"]
     enlaces: [""]
-    imagenes: ["moog-03.jpeg"]
+    imagenes: ["korg-01.jpeg"]
 
   - id: 0
-    marca: ""
+    marca: "Korg"
     modelo: ""
-    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["korg-02.jpeg"]
+
+- id: 0
+    marca: "Korg"
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["korg-03.jpeg"]
+
+- id: 0
+    marca: "Korg"
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["korg-04.jpeg"]
+
+- id: 0
+    marca: "Korg"
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["korg-05.jpeg"]
+
+  - id: 0
+    marca: "Novation"
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
     imagenes: ["novation-01.jpeg"]
 
   - id: 0
-    marca: ""
+    marca: "Roland"
     modelo: ""
-    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
     imagenes: ["roland-01.jpeg"]
 
   - id: 0
-    marca: ""
+    marca: "Roland"
     modelo: ""
-    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
     imagenes: ["roland-02.jpeg"]
 
   - id: 0
-    marca: ""
+    marca: "Electro Harmonix"
     modelo: ""
-    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
-    imagenes: [""]
+    imagenes: ["electro-harmonix--01.jpeg"]
 
   - id: 0
-    marca: ""
+    marca: "Electro Harmonix"
     modelo: ""
-    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
-    imagenes: [""]
+    imagenes: ["electro-harmonix-02.jpeg"]
 
   - id: 0
-    marca: ""
+    marca: "Electro Faustus"
     modelo: ""
-    categorias: ["sintetizador", "semimodular", "percutoción", "analógico", "monofónico", "polifónico", "polirítmico"]
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
-    imagenes: [""]
+    imagenes: ["electro-faustus-01.jpeg"]
+
+  - id: 0
+    marca: "Electro Faustus"
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["electro-faustus-02.jpeg"]
+
+  - id: 0
+    marca: "Electro Faustus"
+    modelo: ""
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["electro-faustus-03.jpeg"]
 
 
 
