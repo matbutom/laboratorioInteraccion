@@ -296,7 +296,7 @@ libros:
     subtitulo:
     autores: ["Martín Gubbins"]
     palabrasClave: ["poesía"]
-    editorial: Mangos de Hacha
+    editorial: "Mangos de Hacha"
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
@@ -350,6 +350,7 @@ libros:
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
+    imagenes: ["out-put.jpeg"]
       
   - id: 36
     titulo: Being digital
@@ -362,18 +363,18 @@ libros:
     codigoBarra: TBD
 
   - id: 37
-    titulo: Stompbox
-    subtitulo: 100 Pedals of the World’s Greatest Guitarists
+    titulo: "Stompbox"
+    subtitulo: "100 Pedals of the World’s Greatest Guitarists"
     autores: ["Eilon Paz", "Dan Epstein", "James Rotondi"]
     palabrasClave: ["música", "electrónica", "sonido", "pedales", "instrumentos"]
-    editorial: Ten Speed Press
+    editorial: "Ten Speed Press"
     agno: 2018
     isbn: TBD
     codigoBarra: TBD
 
   - id: 38
-    titulo: Code as Creative Medium
-    subtitulo: A Handbook for Computational Art and Design
+    titulo: "Code as Creative Medium"
+    subtitulo: "A Handbook for Computational Art and Design"
     autores: ["Golan Levin", "Tega Brain"]
     palabrasClave: ["programación", "electrónica"]
     editorial: MIT Press
@@ -382,7 +383,7 @@ libros:
     codigoBarra: TBD
 
   - id: 39
-    titulo: Reminded by the Instruments
+    titulo: "Reminded by the Instruments"
     subtitulo:
     autores: ["You Nakai"]
     palabrasClave: ["arte", "instrumentos", "electrónica"]
@@ -601,7 +602,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD  
 
-  - id: 62
+  - id: 61
     titulo: "Garabombo el Invisible"
     subtitulo: 
     autores: ["Manuel Scorza"]
