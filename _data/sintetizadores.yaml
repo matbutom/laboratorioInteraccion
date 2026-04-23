@@ -51,21 +51,21 @@ sintetizadores:
     enlaces: [""]
     imagenes: ["korg-02.jpeg"]
 
-- id: 0
+  - id: 0
     marca: "Korg"
     modelo: ""
     categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
     imagenes: ["korg-03.jpeg"]
 
-- id: 0
+  - id: 0
     marca: "Korg"
     modelo: ""
     categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
     enlaces: [""]
     imagenes: ["korg-04.jpeg"]
 
-- id: 0
+  - id: 0
     marca: "Korg"
     modelo: ""
     categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
