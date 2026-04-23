@@ -15,8 +15,7 @@ const eleventyNavigation = {
 - Editorial: {{ libro.editorial }}
 - Año: {{ libro.agno }}
 - Palabras clave: {% for palabra in libro.palabrasClave %}{{ palabra }}{% if not loop.last %}, {% endif %}{% endfor %}
-{% endfor %}
-
+  
 Imágenes:
 {% for imagen in libro.imagenes %}
 {% if imagen %}
@@ -25,3 +24,5 @@ Imágenes:
      eleventy:ignore />
 {% endif %}
 {% endfor %}
+{% endfor %}
+
