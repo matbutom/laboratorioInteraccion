@@ -302,17 +302,17 @@ libros:
     codigoBarra: TBD
 
   - id: 31
-    titulo: Pioneer Works Journal
+    titulo: "Pioneer Works Journal"
     subtitulo:
     autores: ["colectivo"]
     palabrasClave: ["arte", "música", "ciencia"]
-    editorial: Pioneer Works Press
+    editorial: "Pioneer Works Press"
     agno: TBD
     isbn: TBD
     codigoBarra: TBD
 
   - id: 32
-    titulo: Sleepwalk with Me and Other Painfully True Stories
+    titulo: "Sleepwalk with Me and Other Painfully True Stories"
     subtitulo:
     autores: ["Mike Birbiglia"]
     palabrasClave: ["autobiografía", "humor"]
@@ -322,7 +322,7 @@ libros:
     codigoBarra: TBD
 
   - id: 33
-    titulo: Making Pictures with Generative Adversarial Networks
+    titulo: "Making Pictures with Generative Adversarial Networks"
     subtitulo:
     autores: ["Casey Reas"]
     palabrasClave: ["ensayo", "computación", "arte", "inteligencia artificial"]
@@ -332,18 +332,18 @@ libros:
     codigoBarra: TBD
 
   - id: 34
-    titulo: La música de Ana Tijoux
-    subtitulo: activismo, nuevas solidaridades y voces de la calle
+    titulo: "La música de Ana Tijoux"
+    subtitulo: "activismo, nuevas solidaridades y voces de la calle"
     autores: ["María José Barros Cruz"]
     palabrasClave: ["arte", "música", "activismo", "feminismo", "cultura"]
-    editorial: Fondo de Cultura Económica, Editorial Popular
+    editorial: "Fondo de Cultura Económica, Editorial Popular"
     agno: 2019
     isbn: TBD
     codigoBarra: TBD
       
   - id: 35
-    titulo: Output
-    subtitulo: An Anthology of Computer-Generated Text, 1953–2023
+    titulo: "Output"
+    subtitulo: "An Anthology of Computer-Generated Text, 1953–2023"
     autores: ["Lillian-Yvonne Bertram", "Nick Montfort"]
     palabrasClave: ["computación", "inteligencia artificial", "algoritmos", "arte"]
     editorial: 
