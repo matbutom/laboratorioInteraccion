@@ -139,7 +139,7 @@ sintetizadores:
     marca: "Make Noise Music-01"
     modelo: "0-CTRL"
     categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    enlaces: ["https://www.makenoisemusic.com/synthesizers-and-controllers/0-ctrl/"]
     imagenes: ["make-noise-music-01.jpeg"]
 
 
