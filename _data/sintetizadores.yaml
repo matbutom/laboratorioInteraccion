@@ -13,21 +13,21 @@ sintetizadores:
     marca: "Moog"
     modelo: "Mother-32"
     categorias: ["sintetizador", "semimodular", "analógico"]
-    enlaces: [""]
+    enlaces: ["https://www.moogmusic.com/synthesizers/mother-32/"]
     imagenes: ["moog-02.jpeg"]
 
   - id: 3
     marca: "Moog"
     modelo: "DFAM"
     categorias: ["sintetizador", "semimodular", "percusión", "analógico"]
-    enlaces: [""]
+    enlaces: ["https://www.moogmusic.com/synthesizers/dfam/"]
     imagenes: ["moog-03.jpeg"]
 
   - id: 4
     marca: "Dave Smith Instruments"
     modelo: "Mopho"
     categorias: ["sintetizador", "monofónico", "analógico"]
-    enlaces: [""]
+    enlaces: ["https://www.soundonsound.com/reviews/dave-smith-instruments-mopho"]
     imagenes: ["dave-smith-instruments-01.jpeg"]
 
   - id: 5
