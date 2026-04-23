@@ -150,11 +150,11 @@ sintetizadores:
     imagenes: ["make-noise-music-01.jpeg"]
 
  - id: 0
-    marca: ""
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
-    imagenes: [".jpeg"]
+    marca: "Dunn Effects"
+    modelo: "SubaQuatic"
+    categorias: ["pedal"]
+    enlaces: ["NO ENCONTRE"]
+    imagenes: ["dunn-effects-01.jpeg"]
 
 
 
