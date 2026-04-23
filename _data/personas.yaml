@@ -221,10 +221,11 @@ personas:
       inicio: 2024
       fin: false
 
-  - nombre: "Santiago Gaete"
+  - nombre: "Santiago Gaete Fernández"
     github: "santiagoClifford"
     correo: "santiago.gaete@mail.udp.cl"
     instagram: "clifford1one"
+    p5.js: "clifford1one"
     estudianteUDP:
       existencia: true
       inicio: 2022
@@ -234,7 +235,9 @@ personas:
       inicio: 2026
       fin: false
       cursos:
-        - nombre: "DIS8012 Administración financiera"
+        - nombre: "DIS09214 Pensamiento Computacional"
+          semestres: ["2026-1"]
+        - nombre: "DIS8012 Administración Financiera"
           semestres: ["2026-1"]     
     profeUDP:
       existencia: false
