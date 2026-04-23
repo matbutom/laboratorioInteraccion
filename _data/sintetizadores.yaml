@@ -156,6 +156,14 @@ sintetizadores:
     enlaces: ["NO ENCONTRE"]
     imagenes: ["dunn-effects-01.jpeg"]
 
+  - id: 23
+    marca: "Focusrite"
+    modelo: "Clarett 4Pre"
+    categorias: ["interfaz"]
+    enlaces: ["https://focusrite.com/products/clarett-plus-4pre"]
+    imagenes: ["focusrite-01.jpeg"]
+
+
 
 
 
