@@ -601,7 +601,7 @@ libros:
     isbn: TBD
     codigoBarra: TBD  
 
-  - id: 61
+  - id: 62
     titulo: "Garabombo el Invisible"
     subtitulo: 
     autores: ["Manuel Scorza"]
