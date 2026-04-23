@@ -76,7 +76,7 @@ sintetizadores:
     marca: "Novation"
     modelo: "Launch Control XL"
     categorias: ["controlador MIDI"]
-    enlaces: [""]
+    enlaces: ["NO ENCONTRE"]
     imagenes: ["novation-01.jpeg"]
 
   - id: 12
@@ -88,44 +88,44 @@ sintetizadores:
 
   - id: 13
     marca: "Roland"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    modelo: "VT-4"
+    categorias: ["transformador de voz", "procesador"]
+    enlaces: ["https://www.roland.com/us/products/vt-4/"]
     imagenes: ["roland-02.jpeg"]
 
   - id: 14
     marca: "Electro Harmonix"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
-    imagenes: ["electro-harmonix--01.jpeg"]
+    modelo: "8 Step Program"
+    categorias: ["secuenciador", "analógico"]
+    enlaces: ["https://www.ehx.com/products/8-step-program/"]
+    imagenes: ["electro-harmonix-01.jpeg"]
 
   - id: 15
     marca: "Electro Harmonix"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    modelo: "Tri Parallel Mixer"
+    categorias: ["pedal"]
+    enlaces: ["https://www.ehx.com/products/tri-parallel-mixer/"]
     imagenes: ["electro-harmonix-02.jpeg"]
 
   - id: 16
     marca: "Electro Faustus"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    modelo: "EF102 Photo Theremin"
+    categorias: ["pedal", "analógico"]
+    enlaces: ["https://www.electrofaustus.com/ef102-photo-theremin"]
     imagenes: ["electro-faustus-01.jpeg"]
 
   - id: 17
     marca: "Electro Faustus"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    modelo: "Drone Thing"
+    categorias: ["sintetizador", "analógico"]
+    enlaces: ["https://www.electrofaustus.com/shop/p/ef109-drone-thing"]
     imagenes: ["electro-faustus-02.jpeg"]
 
   - id: 18
     marca: "Electro Faustus"
-    modelo: ""
-    categorias: ["sintetizador", "semimodular", "percusión", "analógico", "monofónico", "polifónico", "polirítmico"]
-    enlaces: [""]
+    modelo: "EF101D Deluxe Dual Oscillator"
+    categorias: ["pedal", "efectos", "digital"]
+    enlaces: ["NO ENCONTRE"]
     imagenes: ["electro-faustus-03.jpeg"]
 
   - id: 19
