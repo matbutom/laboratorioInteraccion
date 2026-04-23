@@ -135,6 +135,12 @@ sintetizadores:
     enlaces: [""]
     imagenes: ["bastl-instruments-01.jpeg"]
 
+ - id: 0
+    marca: "Make Noise Music-01"
+    modelo: "0-CTRL"
+    categorias: ["sintetizador", "semimodular", "percución", "analógico", "monofónico", "polifónico", "polirítmico"]
+    enlaces: [""]
+    imagenes: ["make-noise-music-01.jpeg"]
 
 
 
