@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <title>Blog Title</title>
-  <subtitle>This is a longer description about your blog.</subtitle>
-  <link href="https://example.com/laboratorioInteraccionDigital/feed/feed.xml" rel="self" />
-  <link href="https://example.com/laboratorioInteraccionDigital/" />
-  <updated>2025-06-04T00:21:44Z</updated>
-  <id>https://example.com/laboratorioInteraccionDigital/</id>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <title>LID UDP</title>
+  <subtitle>Laboratorio de Interacción Digital UDP.</subtitle>
+  <link href="https://example.com/lid/feed/feed.xml" rel="self" />
+  <link href="https://example.com/lid/" />
+  <updated>2026-04-23T22:12:03Z</updated>
+  <id>https://example.com/lid/</id>
   <author>
     <name>Your Name</name>
   </author>

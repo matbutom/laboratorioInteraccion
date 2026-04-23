@@ -5,29 +5,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>LID UDP</title>
 		<meta name="description" content="Laboratorio de Interacción Digital, Universidad Diego Portales">
-		<link rel="alternate" href="/laboratorioInteraccionDigital/feed/feed.xml" type="application/atom+xml" title="LID UDP">
+		<link rel="alternate" href="/lid/feed/feed.xml" type="application/atom+xml" title="LID UDP">
 		
 		
 		
 		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	font-family: 'B612 Mono';
+	src: url('/fonts/B612Mono-Regular.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* Theme colors */
 :root {
-	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+	/* --color-gray-20: #e0e0e0; */
+	/* --color-gray-50: #C0C0C0; */
+	/* --color-gray-90: #333; */
 
-	--background-color: #fff;
+	/* --background-color: #fff; */
 
-	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	/* --text-color: var(--color-gray-90); */
+	/* --text-color-link: #082840; */
+	/* --text-color-link-active: #5f2b48; */
+	/* --text-color-link-visited: #17050F; */
+
+	/* cambios felix */
+	--background-color: #000000;
+	--nav-background-color: #39FF14;
+	--text-color: #FFFFFF;
+	--text-color-link: #39FF14; 
 
 	--syntax-tab-size: 2;
 }
@@ -39,9 +47,17 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		/* --text-color-link: #1493fb; */
+		/* --text-color-link-active: #6969f7; */
+		/* --text-color-link-visited: #a6a6f8; */
+
+		/* cambios felix */
+		--text-color-link: #39FF14;
+		--text-color-link-active: #1DA600;
+		--text-color-link-visited: #28D200;
+		--text-nav-color : #000000;
+
+
 
 		--background-color: #15202b;
 	}
@@ -223,12 +239,32 @@ header {
 
 /* Nav */
 .nav {
-	display: flex;
-	gap: .5em 1em;
-	padding: 0;
-	margin: 0;
-	list-style: none;
+	/* display: flex; */
+	/* gap: .5em 1em; */
+	/* padding: 0; */
+	/* margin: 0; */
+	/* list-style: none; */
+
+	/* cambios felix */
+	position: fixed;
+	left: 0;
+	top: 0;
+    width: 15%;
+    height: 100%;
+    background-color: var(--nav-background-color);
+    color: var(--text-nav-color);
+    display: flex;
+    flex-direction: column;
 }
+
+/* cambios felix */
+.nav a {
+    color: var(--text-nav-color);
+    text-decoration: none;
+    padding: 10px;
+    text-align: left;
+}
+
 .nav-item {
 	display: inline-block;
 }
@@ -306,6 +342,250 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+
+/* desde aca fue sofrito  */
+
+        /* 2. DEFINIMOS LA IDENTIDAD VISUAL (CSS Variables) */
+        :root {
+            /* Paleta de colores inspirada en Fuse/Soft Glossary */
+            --bg: #000000;          /* Negro absoluto */
+            --text: #ffffff;        /* Blanco puro */
+            --accent: #bcff00;      /* Verde lima eléctrico (vibrante) */
+            --line: rgba(255, 255, 255, 0.15); /* Líneas sutiles */
+            
+            /* Tipografía */
+            --font-main: 'Inter', sans-serif;
+            --font-tech: 'Space Mono', monospace;
+        }
+
+        /* Reset básico */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: var(--font-main);
+            height: 100vh;
+            display: grid;
+            /* Grilla técnica: Panel lateral estrecho a la izquierda */
+            grid-template-columns: 280px 1fr;
+            grid-template-rows: 60px 1fr 50px;
+            border: 1px solid var(--line);
+        }
+
+        /* Estilo de Celda Base */
+        .cell {
+            border: 0.5px solid var(--line);
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        /* --- SECCIONES DE LA GRILLA --- */
+
+        .header {
+            grid-column: span 2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: var(--font-tech);
+            font-size: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .header .brand { font-weight: 700; color: var(--accent); }
+
+        .sidebar {
+            grid-row: span 2; /* Ocupa las dos filas de abajo */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: var(--font-tech);
+            font-size: 13px;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 5vh 5%;
+        }
+
+       .footer {
+    grid-column: 2;
+    font-size: 11px;
+    font-family: var(--font-tech);
+    background: var(--accent); /* Fondo verde lima */
+    color: #000;              /* Texto negro */
+    overflow: hidden;         /* Esconde el texto que se sale */
+    white-space: nowrap;      /* Evita que el texto salte de línea */
+    display: flex;
+    align-items: center;
+}
+
+.scrolling-text {
+    display: inline-block;
+    animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+
+        /* --- ELEMENTOS DE IDENTIDAD --- */
+
+        /* Título con efecto de estiramiento (como Fuse) */
+        h1 {
+            font-size: clamp(3rem, 10vw, 12rem); /* Responsivo */
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 0.95;
+            letter-spacing: -5px;
+            transition: letter-spacing 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+            cursor: pointer;
+        }
+
+        h1:hover {
+            letter-spacing: 15px; /* Se estira suavemente */
+            color: var(--accent);
+        }
+
+        /* Botón/Enlace Técnico */
+        .tech-link {
+            display: inline-block;
+            color: var(--text);
+            text-decoration: none;
+            font-family: var(--font-tech);
+            text-transform: uppercase;
+            font-size: 12px;
+            padding: 8px 15px;
+            border: 1px solid var(--text);
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+
+        .tech-link:hover {
+            background-color: var(--accent);
+            color: var(--bg);
+            border-color: var(--accent);
+        }
+
+        /* Lista de Navegación Simple */
+        .nav-list { list-style: none; margin-top: 40px; }
+        .nav-list li { margin-bottom: 15px; }
+        .nav-list a {
+            color: #888;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .nav-list a:hover { color: var(--text); padding-left: 10px; }
+
+        /* Escondemos el cursor real en todo el sitio */
+html, body {
+    cursor: none;
+}
+
+#cursor {
+    width: 15px;
+    height: 15px;
+    background-color: var(--accent);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none; /* Crucial para poder hacer clic en lo que hay debajo */
+    z-index: 10000;
+    transition: transform 0.1s ease;
+}
+
+/* Contenedor del explorador */
+.directory {
+    display: flex;
+    flex-direction: column;
+}
+
+.dir-header {
+    font-size: 10px;
+    color: var(--accent);
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 20px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid transparent; /* Para que no salte al hacer hover */
+    transition: all 0.2s ease;
+}
+
+.nav-list li:hover {
+    border-bottom: 0.5px solid var(--line);
+    padding-left: 5px; /* Pequeño desplazamiento como en Soft Glossary */
+}
+
+.icon {
+    font-family: var(--font-tech);
+    margin-right: 10px;
+    color: var(--line);
+}
+
+.nav-list li:hover .icon {
+    color: var(--accent);
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: var(--font-tech);
+}
+
+/* Estilo para los archivos (.txt) */
+.file a {
+    color: #888;
+}
+
+/* Escondemos todas las vistas menos la activa */
+.content-view {
+    display: none;
+    animation: fadeIn 0.4s ease-out;
+}
+
+.content-view.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.tech-title {
+    font-family: var(--font-tech);
+    color: var(--accent);
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.project-item {
+    padding: 10px;
+    border: 1px solid var(--line);
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.project-item:hover {
+    background: var(--text);
+    color: var(--bg);
+    cursor: pointer;
 }</style>
 		
 	</head>
@@ -313,15 +593,18 @@ header {
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/laboratorioInteraccionDigital/" class="home-link">LID UDP</a>
+			<a href="/lid/" class="home-link">LID UDP</a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul class="nav">
-					<li class="nav-item"><a href="/laboratorioInteraccionDigital/">Info</a></li>
-					<li class="nav-item"><a href="/laboratorioInteraccionDigital/personas/" aria-current="page">Personas</a></li>
-					<li class="nav-item"><a href="/laboratorioInteraccionDigital/cursos/">Cursos</a></li>
-					<li class="nav-item"><a href="/laboratorioInteraccionDigital/investigacion/">Investigación</a></li>
-					<li class="nav-item"><a href="/laboratorioInteraccionDigital/feed/feed.xml"></a></li>
+					<li class="nav-item"><a href="/lid/">Info</a></li>
+					<li class="nav-item"><a href="/lid/personas/" aria-current="page">Personas</a></li>
+					<li class="nav-item"><a href="/lid/cursos/">Cursos</a></li>
+					<li class="nav-item"><a href="/lid/investigacion/">Investigación</a></li>
+					<li class="nav-item"><a href="/lid/eventos/">Eventos</a></li>
+					<li class="nav-item"><a href="/lid/residencias/">Residencias</a></li>
+					<li class="nav-item"><a href="/lid/biblioteca/">Biblioteca</a></li>
+					<li class="nav-item"><a href="/lid/feed/feed.xml"></a></li>
 				</ul>
 			</nav>
 		</header>
@@ -331,58 +614,214 @@ header {
 				
 
 <h1 id="personas">Personas</h1>
-<h2 id="investigadores-principales">Investigadores principales</h2>
-<h3 id="aaron-montoya">Aarón Montoya</h3>
+<h2 id="aaron-montoya-moraga">Aarón Montoya Moraga</h2>
 <ul>
-<li>Investigadore principal (2024 a la fecha)</li>
-<li>Profesore asistente, Diseño UDP (2023 a la fecha)</li>
-</ul>
-<p>Ingeniere civil electricista de la Pontificia Universidad Católica de Chile, magíster en arte electrónico de New York University, y magíster en ciencias y artes mediales de Massachusetts Institute of Technology. Actualmente es profesore asistente en la Escuela de Diseño UDP, y estudiante del Doctorado en Artes y Humanidades de la Universidad de Santiago Chile. Su tema de investigación es el diseño, escritura y manufactura de software y hardware para la creación de instrumentos musicales electrónicos y computacionales de fuente abierta.</p>
-<h2 id="academiques-colaboradores">Académiques colaboradores</h2>
-<h3 id="sergio-majluf">Sergio Majluf</h3>
+<li>
+<p>Profe desde 2023 hasta ahora</p>
 <ul>
-<li>Profesor, Diseño UDP (2023 a la fecha)</li>
+<li>
+<p>DIS8644 Taller de diseño de máquinas electrónicas (2026-1, 2025-1)</p>
+</li>
+<li>
+<p>DIS8645 Taller de diseño de máquinas computacionales (2025-2)</p>
+</li>
+<li>
+<p>DIS9079 Interacciones inalámbricas (2026-1)</p>
+</li>
+<li>
+<p>DIS09214 Pensamiento computacional (2026-1)</p>
+</li>
 </ul>
-<h3 id="simon-gallardo">Simón Gallardo</h3>
+</li>
+</ul>
+<h2 id="andres-martin">Andrés Martin</h2>
 <ul>
-<li>Profesor, Diseño UDP</li>
+<li>Ayudante desde 2023 hasta 2025</li>
 </ul>
-<h2 id="ayudantes-academiques-y-de-investigacion">Ayudantes académiques y de investigación</h2>
-<h3 id="andres-martin">Andrés Martin</h3>
+<h2 id="bernardita-jesus">Bernardita Jesús</h2>
 <ul>
-<li>Diseñador, Universidad de Chile (2024)</li>
-<li>Ayudante académico de pregrado (2023 - ahora)</li>
-</ul>
-<p>Diseñador de la Universidad de Chile. Ayudante en pregrado de cursos de programación creativa, diseño de interfaces electrónicas y experiencia de usuario en la Escuela de Diseño UDP. Ayudante en pregrado de cursos de física para diseñadores en la Universidad de Chile.</p>
-<h3 id="janis-sepulveda">Janis Sepúlveda</h3>
+<li>
+<p>Ayudante desde 2026 hasta ahora</p>
 <ul>
-<li>Estudiante de Diseño UDP (2020 - ahora)</li>
-<li>Ayudante académica de pregrado (2024 - ahora)</li>
-<li>Ayudante de investigación (2024 - ahora)</li>
+<li>DIS0915 Fabricación Digital (2026-1)</li>
 </ul>
-<p>Estudiante de último año de diseño industrial, con enfoque en diseño centrado en el usuario y experiencias digitales. Mi área de investigación es en la facilitación de interacciones más humanas y conscientes en contextos sensibles, como la salud y el bienestar. Ha participado en proyectos colaborativos como la app de Diseño Abierto de la Escuela de Diseño UDP, y actualmente desarrolla su tesis de pregrado: una app móvil que permite monitorear síntomas físicos y emocionales, pensada especialmente para quienes enfrentan neuralgia del trigémino. Desde el 2023 es ayudante de investigación y de cursos de pregrado de programación creativa. Su objetivo es construir soluciones empáticas que respondan a necesidades reales.</p>
-<h3 id="mateo-arce">Mateo Arce</h3>
+</li>
+<li>
+<p>Estudiante desde 2023 hasta ahora</p>
+</li>
+</ul>
+<h2 id="carolina-pino">Carolina Pino</h2>
 <ul>
-<li>Estudiante de Diseño UDP (2020 - ahora)</li>
-<li>Ayudante de investigación (2024 - ahora)</li>
-</ul>
-<p>Estudiante de último año de diseño gráfico. Su enfoque está en la intersección entre diseño gráfico y código, desarrollando sitios web, interfaces de usuario y sistemas de identidad visual, para crear experiencias visuales funcionales e innovadoras. Su tesis de pregrado es una exploración de  tipográfia interactiva. Las herramientas que usa incluyen Adobe y GitHub Pages.</p>
-<h3 id="sofia-etchepare">Sofía Etchepare</h3>
+<li>
+<p>Profe desde 2026 hasta ahora</p>
 <ul>
-<li>Estudiante de Diseño UDP (2021 - ahora)</li>
-<li>Ayudante de académica de pregrado (2024 - ahora)</li>
+<li>DIS09211 Taller III: Problema y Concepto (2026-1)</li>
 </ul>
-<p>Estudiante de cuarto año de diseño gráfico en UDP. Lleva dos años de experiencia aprendiendo a programar en softwares y plataformas como p5.js, Figma, Arduino y MIT App Inventor. Actualmente es ayudante académica de pregrado en cursos de programación en diseño UDP.</p>
+</li>
+</ul>
+<h2 id="christian-oyarzun">Christian Oyarzún</h2>
+<ul>
+<li>
+<p>Profe desde 2025 hasta ahora</p>
+<ul>
+<li>
+<p>DIS9034 Programación creativa y multimedia (2025-1)</p>
+</li>
+<li>
+<p>DIS8952 Cuerpo, movimiento y código (2025-2)</p>
+</li>
+<li>
+<p>DIS09214 Pensamiento computacional (2026-1)</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="emilia-guerra">Emilia Guerra</h2>
+<ul>
+<li>
+<p>Ayudante desde 2026 hasta ahora</p>
+<ul>
+<li>DIS8644 Taller de diseño de máquinas electrónicas (2026-1)</li>
+</ul>
+</li>
+<li>
+<p>Estudiante desde 2021 hasta ahora</p>
+</li>
+</ul>
+<h2 id="felix-rodriguez">Félix Rodríguez</h2>
+<ul>
+<li>Estudiante desde 2023 hasta ahora</li>
+</ul>
+<h2 id="jacinta-barrenechea">Jacinta Barrenechea</h2>
+<ul>
+<li>
+<p>Ayudante desde 2025 hasta ahora</p>
+<ul>
+<li>
+<p>DIS09214 Pensamiento computacional (2026-1)</p>
+</li>
+<li>
+<p>DIS8949 Introducción al diseño de servicios (2026-1)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Estudiante desde 2021 hasta 2025</p>
+</li>
+</ul>
+<h2 id="janis-sepulveda">Janis Sepúlveda</h2>
+<ul>
+<li>
+<p>Ayudante desde 2024 hasta ahora</p>
+</li>
+<li>
+<p>Estudiante desde 2021 hasta 2025</p>
+</li>
+</ul>
+<h2 id="joaquin-gonzalez">Joaquín González</h2>
+<ul>
+<li>Profe desde 2024 hasta ahora</li>
+</ul>
+<h2 id="mateo-arce">Mateo Arce</h2>
+<ul>
+<li>
+<p>Ayudante desde 2025 hasta ahora</p>
+<ul>
+<li>DIS8012 Administración financiera (2026-1)</li>
+</ul>
+</li>
+<li>
+<p>Estudiante desde 2021 hasta 2025</p>
+</li>
+</ul>
+<h2 id="matias-serrano">Matías Serrano</h2>
+<ul>
+<li>Profe desde 2024 hasta ahora</li>
+</ul>
+<h2 id="santiago-gaete-fernandez">Santiago Gaete Fernández</h2>
+<ul>
+<li>
+<p>Ayudante desde 2026 hasta ahora</p>
+<ul>
+<li>
+<p>DIS09214 Pensamiento Computacional (2026-1)</p>
+</li>
+<li>
+<p>DIS8012 Administración Financiera (2026-1)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Estudiante desde 2022 hasta ahora</p>
+</li>
+</ul>
+<h2 id="sergio-majluf">Sergio Majluf</h2>
+<ul>
+<li>Profe desde 2023 hasta ahora</li>
+</ul>
+<h2 id="sergio-mora">Sergio Mora</h2>
+<ul>
+<li>Profe desde 2024 hasta ahora</li>
+</ul>
+<h2 id="simon-gallardo">Simón Gallardo</h2>
+<ul>
+<li>
+<p>Profe desde 1234 hasta ahora</p>
+</li>
+<li>
+<p>Ayudante desde 1234 hasta 1234</p>
+</li>
+<li>
+<p>Estudiante desde 1234 hasta 1234</p>
+</li>
+</ul>
+<h2 id="sofia-etchepare">Sofía Etchepare</h2>
+<ul>
+<li>
+<p>Ayudante desde 2025 hasta ahora</p>
+<ul>
+<li>Programacion creativa multimedia (2026-1)</li>
+</ul>
+</li>
+<li>
+<p>Estudiante desde 2022 hasta ahora</p>
+</li>
+</ul>
+<h2 id="sofia-perez">Sofía Pérez</h2>
+<ul>
+<li>Estudiante desde 2023 hasta ahora</li>
+</ul>
+<h2 id="vania-paredes">Vania Paredes</h2>
+<ul>
+<li>
+<p>Ayudante desde 2024 hasta ahora</p>
+<ul>
+<li>
+<p>Geometría Básica (2024-1)</p>
+</li>
+<li>
+<p>DIS09214 Pensamiento Computacional (2026-1)</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Estudiante desde 2023 hasta ahora</p>
+</li>
+</ul>
+<h2 id="yamna-carrion">Yamna Carrión</h2>
+<ul>
+<li>Estudiante desde 2023 hasta ahora</li>
+</ul>
 
 
 			</heading-anchors>
 		</main>
 
 		<footer>
-			<p><em>Página web  construida con <a href="https://www.11ty.dev/">Eleventy v3.1.1</a></em></p>
+			<p><em>Página web  construida con <a href="https://www.11ty.dev/">Eleventy v3.1.5</a></em></p>
 		</footer>
 
-		<!-- Esta web `/personas/` fue construida en 2025-06-04T00:21:44.389Z -->
-		<script type="module" src="/laboratorioInteraccionDigital/dist/xbxy_EL6cU.js"></script>
+		<!-- Esta web `/personas/` fue construida en 2026-04-23T22:12:03.670Z -->
+		<script type="module" src="/lid/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

@@ -2,32 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://disenoudp.github.io/laboratorioInteraccionDigital/cursos/</loc>
-		<lastmod>2025-06-04</lastmod>
+		<loc>https://disenoudp.github.io/lid/biblioteca/</loc>
+		<lastmod>2026-04-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://disenoudp.github.io/laboratorioInteraccionDigital/</loc>
-		<lastmod>2025-06-04</lastmod>
+		<loc>https://disenoudp.github.io/lid/biblioteca/cuerdas/</loc>
+		<lastmod>2026-04-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://disenoudp.github.io/laboratorioInteraccionDigital/investigacion/</loc>
-		<lastmod>2025-06-04</lastmod>
+		<loc>https://disenoudp.github.io/lid/biblioteca/impresoras/</loc>
+		<lastmod>2026-04-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://disenoudp.github.io/laboratorioInteraccionDigital/personas/</loc>
-		<lastmod>2025-06-04</lastmod>
+		<loc>https://disenoudp.github.io/lid/biblioteca/libros/</loc>
+		<lastmod>2026-04-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://disenoudp.github.io/laboratorioInteraccionDigital/tags/</loc>
-		<lastmod>2025-06-04</lastmod>
+		<loc>https://disenoudp.github.io/lid/biblioteca/sintetizadores/</loc>
+		<lastmod>2026-04-23</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://disenoudp.github.io/laboratorioInteraccionDigital/feed/feed.xml</loc>
-		<lastmod>2025-06-04</lastmod>
+		<loc>https://disenoudp.github.io/lid/cursos/</loc>
+		<lastmod>2026-04-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://disenoudp.github.io/lid/eventos/</loc>
+		<lastmod>2026-04-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://disenoudp.github.io/lid/</loc>
+		<lastmod>2026-04-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://disenoudp.github.io/lid/investigacion/</loc>
+		<lastmod>2026-04-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://disenoudp.github.io/lid/personas/</loc>
+		<lastmod>2026-04-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://disenoudp.github.io/lid/residencias/</loc>
+		<lastmod>2026-04-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://disenoudp.github.io/lid/tags/</loc>
+		<lastmod>2026-04-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://disenoudp.github.io/lid/feed/feed.xml</loc>
+		<lastmod>2026-04-23</lastmod>
 	</url>
 </urlset>

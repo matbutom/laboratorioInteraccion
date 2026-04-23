@@ -1,15 +1,3 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>LID UDP</title>
-		<meta name="description" content="Laboratorio de Interacción Digital, Universidad Diego Portales">
-		<link rel="alternate" href="/lid/feed/feed.xml" type="application/atom+xml" title="LID UDP">
-		
-		
-		
-		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	font-family: 'B612 Mono';
@@ -586,46 +574,4 @@ html, body {
     background: var(--text);
     color: var(--bg);
     cursor: pointer;
-}</style>
-		
-	</head>
-	<body>
-		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
-
-		<header>
-			<a href="/lid/" class="home-link">LID UDP</a>
-			<nav>
-				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
-				<ul class="nav">
-					<li class="nav-item"><a href="/lid/">Info</a></li>
-					<li class="nav-item"><a href="/lid/personas/">Personas</a></li>
-					<li class="nav-item"><a href="/lid/cursos/">Cursos</a></li>
-					<li class="nav-item"><a href="/lid/investigacion/">Investigación</a></li>
-					<li class="nav-item"><a href="/lid/eventos/">Eventos</a></li>
-					<li class="nav-item"><a href="/lid/residencias/">Residencias</a></li>
-					<li class="nav-item"><a href="/lid/biblioteca/">Biblioteca</a></li>
-					<li class="nav-item"><a href="/lid/feed/feed.xml"></a></li>
-				</ul>
-			</nav>
-		</header>
-
-		<main id="main">
-			<heading-anchors>
-				
-
-<h1 id="pagina-no-encontrada">Página no encontrada</h1>
-<p>Esto es un error 404.</p>
-<p>Volver al <a href="/lid/">inicio</a></p>
-
-
-			</heading-anchors>
-		</main>
-
-		<footer>
-			<p><em>Página web  construida con <a href="https://www.11ty.dev/">Eleventy v3.1.5</a></em></p>
-		</footer>
-
-		<!-- Esta web `/404.html` fue construida en 2026-04-23T22:12:03.669Z -->
-		<script type="module" src="/lid/dist/cC8wS6ZjFU.js"></script>
-	</body>
-</html>
+}

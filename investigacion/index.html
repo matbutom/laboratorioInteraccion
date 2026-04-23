@@ -5,29 +5,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>LID UDP</title>
 		<meta name="description" content="Laboratorio de Interacción Digital, Universidad Diego Portales">
-		<link rel="alternate" href="/laboratorioInteraccionDigital/feed/feed.xml" type="application/atom+xml" title="LID UDP">
+		<link rel="alternate" href="/lid/feed/feed.xml" type="application/atom+xml" title="LID UDP">
 		
 		
 		
 		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
-	--font-family: -apple-system, system-ui, sans-serif;
-	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	font-family: 'B612 Mono';
+	src: url('/fonts/B612Mono-Regular.ttf') format('ttf');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /* Theme colors */
 :root {
-	--color-gray-20: #e0e0e0;
-	--color-gray-50: #C0C0C0;
-	--color-gray-90: #333;
+	/* --color-gray-20: #e0e0e0; */
+	/* --color-gray-50: #C0C0C0; */
+	/* --color-gray-90: #333; */
 
-	--background-color: #fff;
+	/* --background-color: #fff; */
 
-	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	/* --text-color: var(--color-gray-90); */
+	/* --text-color-link: #082840; */
+	/* --text-color-link-active: #5f2b48; */
+	/* --text-color-link-visited: #17050F; */
+
+	/* cambios felix */
+	--background-color: #000000;
+	--nav-background-color: #39FF14;
+	--text-color: #FFFFFF;
+	--text-color-link: #39FF14; 
 
 	--syntax-tab-size: 2;
 }
@@ -39,9 +47,17 @@
 		--color-gray-90: #dad8d8;
 
 		/* --text-color is assigned to --color-gray-_ above */
-		--text-color-link: #1493fb;
-		--text-color-link-active: #6969f7;
-		--text-color-link-visited: #a6a6f8;
+		/* --text-color-link: #1493fb; */
+		/* --text-color-link-active: #6969f7; */
+		/* --text-color-link-visited: #a6a6f8; */
+
+		/* cambios felix */
+		--text-color-link: #39FF14;
+		--text-color-link-active: #1DA600;
+		--text-color-link-visited: #28D200;
+		--text-nav-color : #000000;
+
+
 
 		--background-color: #15202b;
 	}
@@ -223,12 +239,32 @@ header {
 
 /* Nav */
 .nav {
-	display: flex;
-	gap: .5em 1em;
-	padding: 0;
-	margin: 0;
-	list-style: none;
+	/* display: flex; */
+	/* gap: .5em 1em; */
+	/* padding: 0; */
+	/* margin: 0; */
+	/* list-style: none; */
+
+	/* cambios felix */
+	position: fixed;
+	left: 0;
+	top: 0;
+    width: 15%;
+    height: 100%;
+    background-color: var(--nav-background-color);
+    color: var(--text-nav-color);
+    display: flex;
+    flex-direction: column;
 }
+
+/* cambios felix */
+.nav a {
+    color: var(--text-nav-color);
+    text-decoration: none;
+    padding: 10px;
+    text-align: left;
+}
+
 .nav-item {
 	display: inline-block;
 }
@@ -306,6 +342,250 @@ header {
 }
 .post-metadata time {
 	margin-right: 1em;
+}
+
+
+/* desde aca fue sofrito  */
+
+        /* 2. DEFINIMOS LA IDENTIDAD VISUAL (CSS Variables) */
+        :root {
+            /* Paleta de colores inspirada en Fuse/Soft Glossary */
+            --bg: #000000;          /* Negro absoluto */
+            --text: #ffffff;        /* Blanco puro */
+            --accent: #bcff00;      /* Verde lima eléctrico (vibrante) */
+            --line: rgba(255, 255, 255, 0.15); /* Líneas sutiles */
+            
+            /* Tipografía */
+            --font-main: 'Inter', sans-serif;
+            --font-tech: 'Space Mono', monospace;
+        }
+
+        /* Reset básico */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: var(--font-main);
+            height: 100vh;
+            display: grid;
+            /* Grilla técnica: Panel lateral estrecho a la izquierda */
+            grid-template-columns: 280px 1fr;
+            grid-template-rows: 60px 1fr 50px;
+            border: 1px solid var(--line);
+        }
+
+        /* Estilo de Celda Base */
+        .cell {
+            border: 0.5px solid var(--line);
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        /* --- SECCIONES DE LA GRILLA --- */
+
+        .header {
+            grid-column: span 2;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: var(--font-tech);
+            font-size: 12px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .header .brand { font-weight: 700; color: var(--accent); }
+
+        .sidebar {
+            grid-row: span 2; /* Ocupa las dos filas de abajo */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: var(--font-tech);
+            font-size: 13px;
+        }
+
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 5vh 5%;
+        }
+
+       .footer {
+    grid-column: 2;
+    font-size: 11px;
+    font-family: var(--font-tech);
+    background: var(--accent); /* Fondo verde lima */
+    color: #000;              /* Texto negro */
+    overflow: hidden;         /* Esconde el texto que se sale */
+    white-space: nowrap;      /* Evita que el texto salte de línea */
+    display: flex;
+    align-items: center;
+}
+
+.scrolling-text {
+    display: inline-block;
+    animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-left {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+
+        /* --- ELEMENTOS DE IDENTIDAD --- */
+
+        /* Título con efecto de estiramiento (como Fuse) */
+        h1 {
+            font-size: clamp(3rem, 10vw, 12rem); /* Responsivo */
+            font-weight: 900;
+            text-transform: uppercase;
+            line-height: 0.95;
+            letter-spacing: -5px;
+            transition: letter-spacing 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+            cursor: pointer;
+        }
+
+        h1:hover {
+            letter-spacing: 15px; /* Se estira suavemente */
+            color: var(--accent);
+        }
+
+        /* Botón/Enlace Técnico */
+        .tech-link {
+            display: inline-block;
+            color: var(--text);
+            text-decoration: none;
+            font-family: var(--font-tech);
+            text-transform: uppercase;
+            font-size: 12px;
+            padding: 8px 15px;
+            border: 1px solid var(--text);
+            transition: 0.3s;
+            margin-top: 20px;
+        }
+
+        .tech-link:hover {
+            background-color: var(--accent);
+            color: var(--bg);
+            border-color: var(--accent);
+        }
+
+        /* Lista de Navegación Simple */
+        .nav-list { list-style: none; margin-top: 40px; }
+        .nav-list li { margin-bottom: 15px; }
+        .nav-list a {
+            color: #888;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .nav-list a:hover { color: var(--text); padding-left: 10px; }
+
+        /* Escondemos el cursor real en todo el sitio */
+html, body {
+    cursor: none;
+}
+
+#cursor {
+    width: 15px;
+    height: 15px;
+    background-color: var(--accent);
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none; /* Crucial para poder hacer clic en lo que hay debajo */
+    z-index: 10000;
+    transition: transform 0.1s ease;
+}
+
+/* Contenedor del explorador */
+.directory {
+    display: flex;
+    flex-direction: column;
+}
+
+.dir-header {
+    font-size: 10px;
+    color: var(--accent);
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 20px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid transparent; /* Para que no salte al hacer hover */
+    transition: all 0.2s ease;
+}
+
+.nav-list li:hover {
+    border-bottom: 0.5px solid var(--line);
+    padding-left: 5px; /* Pequeño desplazamiento como en Soft Glossary */
+}
+
+.icon {
+    font-family: var(--font-tech);
+    margin-right: 10px;
+    color: var(--line);
+}
+
+.nav-list li:hover .icon {
+    color: var(--accent);
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: var(--text);
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: var(--font-tech);
+}
+
+/* Estilo para los archivos (.txt) */
+.file a {
+    color: #888;
+}
+
+/* Escondemos todas las vistas menos la activa */
+.content-view {
+    display: none;
+    animation: fadeIn 0.4s ease-out;
+}
+
+.content-view.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.tech-title {
+    font-family: var(--font-tech);
+    color: var(--accent);
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.project-item {
+    padding: 10px;
+    border: 1px solid var(--line);
+    margin-bottom: 5px;
+    transition: 0.3s;
+}
+
+.project-item:hover {
+    background: var(--text);
+    color: var(--bg);
+    cursor: pointer;
 }</style>
 		
 	</head>
@@ -313,15 +593,18 @@ header {
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/laboratorioInteraccionDigital/" class="home-link">LID UDP</a>
+			<a href="/lid/" class="home-link">LID UDP</a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul class="nav">
-					<li class="nav-item"><a href="/laboratorioInteraccionDigital/">Info</a></li>
-					<li class="nav-item"><a href="/laboratorioInteraccionDigital/personas/">Personas</a></li>
-					<li class="nav-item"><a href="/laboratorioInteraccionDigital/cursos/">Cursos</a></li>
-					<li class="nav-item"><a href="/laboratorioInteraccionDigital/investigacion/" aria-current="page">Investigación</a></li>
-					<li class="nav-item"><a href="/laboratorioInteraccionDigital/feed/feed.xml"></a></li>
+					<li class="nav-item"><a href="/lid/">Info</a></li>
+					<li class="nav-item"><a href="/lid/personas/">Personas</a></li>
+					<li class="nav-item"><a href="/lid/cursos/">Cursos</a></li>
+					<li class="nav-item"><a href="/lid/investigacion/" aria-current="page">Investigación</a></li>
+					<li class="nav-item"><a href="/lid/eventos/">Eventos</a></li>
+					<li class="nav-item"><a href="/lid/residencias/">Residencias</a></li>
+					<li class="nav-item"><a href="/lid/biblioteca/">Biblioteca</a></li>
+					<li class="nav-item"><a href="/lid/feed/feed.xml"></a></li>
 				</ul>
 			</nav>
 		</header>
@@ -331,25 +614,59 @@ header {
 				
 
 <h1 id="investigacion">Investigación</h1>
-<h2 id="diseno-parametrico-de-3d">Diseño paramétrico de 3D</h2>
-<h2 id="infraestructura-digital-parametrica-del-laboratorio">Infraestructura digital paramétrica del laboratorio</h2>
-<h3 id="acerca-de">Acerca de</h3>
-<p>En el laboratorio estamos usando las siguientes herramientas:</p>
+<h2 id="diseno-parametrico-de-instrumentos-3d">Diseño paramétrico de instrumentos 3D</h2>
+<p>En conjunto con el laboratorio de Lutheria Postidigital de la Universidad de Chile, estamos desarrollando un proyecto de investigación sobre diseño paramétrico de instrumentos 3D, en particular de instrumentos de cuerda latinoamericanos, con fines educacionales y de acceso.</p>
+<h2 id="web-abierta-del-laboratorio">Web abierta del laboratorio</h2>
 <ul>
-<li>Eleventy</li>
-<li>Mechanic</li>
+<li>Personas:
+<ul>
+<li>Aarón Montoya: investigación sobre herramientas de diseño paramétrico y automatización de procesos.</li>
 </ul>
-<h2></h2>
+</li>
+<li>Herramientas:
+<ul>
+<li>Eleventy <a href="https://www.11ty.dev/">https://www.11ty.dev/</a></li>
+</ul>
+</li>
+<li>Proceso:
+<ul>
+<li><a href="https://github.com/disenoUDP/laboratorioInteraccionDigital">https://github.com/disenoUDP/laboratorioInteraccionDigital</a>: sitio web del laboratorio hecho con Eleventy.</li>
+</ul>
+</li>
+</ul>
+<p>En el laboratorio estamos usando las siguientes herramientas para la generación de sitios web, tutoriales, documentación y .</p>
+<p>Este trabajo se realiza de fuente abierta y disponible para cualquier otra comunidad que quiera adaptarlo.</p>
+<p>Estos esfuerzos se encuentran en los siguientes repositorios:</p>
+<h2 id="graficas-parametricas-para-identidad-grafica-del-laboratorio">Gráficas paramétricas para identidad gráfica del laboratorio</h2>
+<ul>
+<li>Personas:
+<ul>
+<li>Aarón Montoya: investigación sobre herramientas de diseño paramétrico y automatización de procesos.</li>
+<li>Mateo Arce: decisiones de estilo gráfico e implementación</li>
+</ul>
+</li>
+<li>Herramientas:
+<ul>
+<li>Mechanic: herramienta de diseño paramétrico para la web.</li>
+</ul>
+</li>
+<li>Proceso:
+<ul>
+<li><a href="https://github.com/disenoUDP/lid-graficas">https://github.com/disenoUDP/lid-graficas</a>: gráficas del laboratorio hechas con Mechanic.</li>
+</ul>
+</li>
+</ul>
+<p><picture><source type="image/avif" srcset="/lid/investigacion/YhHOD4mf9a-1700.avif 1700w"><source type="image/webp" srcset="/lid/investigacion/YhHOD4mf9a-1700.webp 1700w"><img loading="lazy" decoding="async" src="/lid/investigacion/YhHOD4mf9a-1700.jpeg" alt="cartel de trabajos v0 hecho por Mateo Arce en mechanic" width="1700" height="2200"></picture></p>
 
 
 			</heading-anchors>
 		</main>
 
 		<footer>
-			<p><em>Página web  construida con <a href="https://www.11ty.dev/">Eleventy v3.1.1</a></em></p>
+			<p><em>Página web  construida con <a href="https://www.11ty.dev/">Eleventy v3.1.5</a></em></p>
 		</footer>
 
-		<!-- Esta web `/investigacion/` fue construida en 2025-06-04T00:21:44.389Z -->
-		<script type="module" src="/laboratorioInteraccionDigital/dist/xbxy_EL6cU.js"></script>
+		<!-- Esta web `/investigacion/` fue construida en 2026-04-23T22:12:03.670Z -->
+		<script type="module" src="/lid/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
