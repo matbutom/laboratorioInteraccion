@@ -10,7 +10,6 @@ libros:
     agno: "2021"
     isbn: TBD
     codigoBarra: TBD
-    imagenes: [""]
 
   - id: 2
     titulo: "Push turn move"
